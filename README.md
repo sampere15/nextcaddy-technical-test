@@ -99,4 +99,4 @@ Entrega el proyecto de la manera que creas más conveniente, teniendo en cuenta 
 ## Dudas
 
 Cualquier duda técnica sobre la prueba puedes comentarla directamente con:  
-`dev1.slope@gmail.com`
+`juan.cabrera@slope.es`
