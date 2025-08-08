@@ -1,0 +1,882 @@
+[
+  {
+    "clubCode": "AD00",
+    "name": "Golf Horizonte"
+  },
+  {
+    "clubCode": "AD01",
+    "name": "Asociaci\u00f3n Encina"
+  },
+  {
+    "clubCode": "AM00",
+    "name": "Real Club Sierra"
+  },
+  {
+    "clubCode": "AM01",
+    "name": "Real Club Sauce"
+  },
+  {
+    "clubCode": "AM02",
+    "name": "Instituto Abedul"
+  },
+  {
+    "clubCode": "AM03",
+    "name": "Centro Deportivo Roble"
+  },
+  {
+    "clubCode": "AM04",
+    "name": "Complejo Niebla"
+  },
+  {
+    "clubCode": "AM05",
+    "name": "Golf Estrella"
+  },
+  {
+    "clubCode": "AM06",
+    "name": "Asociaci\u00f3n Sierra"
+  },
+  {
+    "clubCode": "AM07",
+    "name": "Golf Roble"
+  },
+  {
+    "clubCode": "AM09",
+    "name": "Golf Sierra"
+  },
+  {
+    "clubCode": "AM10",
+    "name": "Instituto Sauce"
+  },
+  {
+    "clubCode": "AM11",
+    "name": "Escuela Sol"
+  },
+  {
+    "clubCode": "AM12",
+    "name": "Instituto Valle"
+  },
+  {
+    "clubCode": "AM14",
+    "name": "Centro Deportivo Horizonte"
+  },
+  {
+    "clubCode": "AM15",
+    "name": "Centro Deportivo Marina"
+  },
+  {
+    "clubCode": "AM16",
+    "name": "Real Club Olivo"
+  },
+  {
+    "clubCode": "AM17",
+    "name": "Federaci\u00f3n Llanura"
+  },
+  {
+    "clubCode": "AM18",
+    "name": "Club Abedul"
+  },
+  {
+    "clubCode": "AM20",
+    "name": "Federaci\u00f3n Pinares"
+  },
+  {
+    "clubCode": "AM22",
+    "name": "Club Colinas"
+  },
+  {
+    "clubCode": "AM23",
+    "name": "Golf Niebla"
+  },
+  {
+    "clubCode": "AM24",
+    "name": "Asociaci\u00f3n Roble"
+  },
+  {
+    "clubCode": "AM25",
+    "name": "Escuela Valle"
+  },
+  {
+    "clubCode": "AM27",
+    "name": "Federaci\u00f3n Costa"
+  },
+  {
+    "clubCode": "AM29",
+    "name": "Campo Monta\u00f1a"
+  },
+  {
+    "clubCode": "AM30",
+    "name": "Asociaci\u00f3n Costa"
+  },
+  {
+    "clubCode": "AM31",
+    "name": "Escuela Horizonte"
+  },
+  {
+    "clubCode": "AM32",
+    "name": "Complejo Valle"
+  },
+  {
+    "clubCode": "AM38",
+    "name": "Centro Deportivo Pradera"
+  },
+  {
+    "clubCode": "AM39",
+    "name": "Campo Horizonte"
+  },
+  {
+    "clubCode": "AM42",
+    "name": "Federaci\u00f3n Olivo"
+  },
+  {
+    "clubCode": "AM43",
+    "name": "Centro Deportivo Horizonte"
+  },
+  {
+    "clubCode": "AM45",
+    "name": "Escuela Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AM47",
+    "name": "Golf Abedul"
+  },
+  {
+    "clubCode": "AM48",
+    "name": "Federaci\u00f3n Valle"
+  },
+  {
+    "clubCode": "AM49",
+    "name": "Campo Sierra"
+  },
+  {
+    "clubCode": "AM51",
+    "name": "Golf Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AM52",
+    "name": "Club Sauce"
+  },
+  {
+    "clubCode": "AM53",
+    "name": "Club Marina"
+  },
+  {
+    "clubCode": "AM54",
+    "name": "Club Pradera"
+  },
+  {
+    "clubCode": "AM55",
+    "name": "Real Club Abedul"
+  },
+  {
+    "clubCode": "AM56",
+    "name": "Golf Valle"
+  },
+  {
+    "clubCode": "AM57",
+    "name": "Instituto Pradera"
+  },
+  {
+    "clubCode": "AM58",
+    "name": "Instituto Olivo"
+  },
+  {
+    "clubCode": "AM59",
+    "name": "Campo Costa"
+  },
+  {
+    "clubCode": "AM60",
+    "name": "Complejo Sol"
+  },
+  {
+    "clubCode": "AM61",
+    "name": "Escuela Estrella"
+  },
+  {
+    "clubCode": "AM62",
+    "name": "Campo Roble"
+  },
+  {
+    "clubCode": "AM63",
+    "name": "Federaci\u00f3n Aurora"
+  },
+  {
+    "clubCode": "AM64",
+    "name": "Centro Deportivo Costa"
+  },
+  {
+    "clubCode": "AM65",
+    "name": "Complejo Pinares"
+  },
+  {
+    "clubCode": "AM66",
+    "name": "Asociaci\u00f3n Aurora"
+  },
+  {
+    "clubCode": "AM67",
+    "name": "Campo Valle"
+  },
+  {
+    "clubCode": "AM68",
+    "name": "Centro Deportivo Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AM69",
+    "name": "Centro Deportivo Abedul"
+  },
+  {
+    "clubCode": "AM70",
+    "name": "Real Club Colinas"
+  },
+  {
+    "clubCode": "AM71",
+    "name": "Escuela Encina"
+  },
+  {
+    "clubCode": "AM72",
+    "name": "Asociaci\u00f3n Abedul"
+  },
+  {
+    "clubCode": "AM73",
+    "name": "Real Club Horizonte"
+  },
+  {
+    "clubCode": "AM74",
+    "name": "Escuela Monta\u00f1a"
+  },
+  {
+    "clubCode": "AM75",
+    "name": "Federaci\u00f3n Encina"
+  },
+  {
+    "clubCode": "AM76",
+    "name": "Federaci\u00f3n Horizonte"
+  },
+  {
+    "clubCode": "AM77",
+    "name": "Centro Deportivo Sol"
+  },
+  {
+    "clubCode": "AM78",
+    "name": "Centro Deportivo Encina"
+  },
+  {
+    "clubCode": "AM79",
+    "name": "Instituto Verde"
+  },
+  {
+    "clubCode": "AM80",
+    "name": "Asociaci\u00f3n Valle"
+  },
+  {
+    "clubCode": "AM81",
+    "name": "Instituto Estrella"
+  },
+  {
+    "clubCode": "AM82",
+    "name": "Instituto Costa"
+  },
+  {
+    "clubCode": "AM83",
+    "name": "Centro Deportivo Verde"
+  },
+  {
+    "clubCode": "AM84",
+    "name": "Golf Pinares"
+  },
+  {
+    "clubCode": "AM85",
+    "name": "Instituto Aurora"
+  },
+  {
+    "clubCode": "AM86",
+    "name": "Federaci\u00f3n Horizonte"
+  },
+  {
+    "clubCode": "AM87",
+    "name": "Club Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AM88",
+    "name": "Escuela Pradera"
+  },
+  {
+    "clubCode": "AM89",
+    "name": "Centro Deportivo Monta\u00f1a"
+  },
+  {
+    "clubCode": "AM91",
+    "name": "Golf Llanura"
+  },
+  {
+    "clubCode": "AM92",
+    "name": "Centro Deportivo Niebla"
+  },
+  {
+    "clubCode": "AM93",
+    "name": "Real Club Pinares"
+  },
+  {
+    "clubCode": "AM94",
+    "name": "Instituto Horizonte"
+  },
+  {
+    "clubCode": "AM95",
+    "name": "Asociaci\u00f3n Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AM96",
+    "name": "Asociaci\u00f3n Pinares"
+  },
+  {
+    "clubCode": "AM99",
+    "name": "Real Club Encina"
+  },
+  {
+    "clubCode": "AMA2",
+    "name": "Escuela Pinares"
+  },
+  {
+    "clubCode": "AMA3",
+    "name": "Complejo Olivo"
+  },
+  {
+    "clubCode": "AMA9",
+    "name": "Real Club Costa"
+  },
+  {
+    "clubCode": "AMB2",
+    "name": "Instituto Sierra"
+  },
+  {
+    "clubCode": "AMB4",
+    "name": "Federaci\u00f3n Niebla"
+  },
+  {
+    "clubCode": "AMB5",
+    "name": "Instituto Roble"
+  },
+  {
+    "clubCode": "AMB6",
+    "name": "Instituto Sol"
+  },
+  {
+    "clubCode": "AMB8",
+    "name": "Real Club Horizonte"
+  },
+  {
+    "clubCode": "AMB9",
+    "name": "Instituto Colinas"
+  },
+  {
+    "clubCode": "AMC2",
+    "name": "Instituto Pinares"
+  },
+  {
+    "clubCode": "AMC3",
+    "name": "Escuela Abedul"
+  },
+  {
+    "clubCode": "AMC4",
+    "name": "Club Pinares"
+  },
+  {
+    "clubCode": "AMC6",
+    "name": "Instituto Marina"
+  },
+  {
+    "clubCode": "AMC7",
+    "name": "Federaci\u00f3n Roble"
+  },
+  {
+    "clubCode": "AMC8",
+    "name": "Club Horizonte"
+  },
+  {
+    "clubCode": "AMC9",
+    "name": "Complejo Verde"
+  },
+  {
+    "clubCode": "AMD1",
+    "name": "Club Horizonte"
+  },
+  {
+    "clubCode": "AMD2",
+    "name": "Real Club Pradera"
+  },
+  {
+    "clubCode": "AMD3",
+    "name": "Club Niebla"
+  },
+  {
+    "clubCode": "AMD4",
+    "name": "Campo Estrella"
+  },
+  {
+    "clubCode": "AMD5",
+    "name": "Club Sol"
+  },
+  {
+    "clubCode": "AMD7",
+    "name": "Centro Deportivo Sierra"
+  },
+  {
+    "clubCode": "AMD8",
+    "name": "Campo Niebla"
+  },
+  {
+    "clubCode": "AME1",
+    "name": "Complejo Monta\u00f1a"
+  },
+  {
+    "clubCode": "AME2",
+    "name": "Asociaci\u00f3n Niebla"
+  },
+  {
+    "clubCode": "AME3",
+    "name": "Campo Colinas"
+  },
+  {
+    "clubCode": "AME4",
+    "name": "Golf Pradera"
+  },
+  {
+    "clubCode": "AME5",
+    "name": "Club Sierra"
+  },
+  {
+    "clubCode": "AME6",
+    "name": "Escuela Niebla"
+  },
+  {
+    "clubCode": "AME7",
+    "name": "Escuela Sauce"
+  },
+  {
+    "clubCode": "AME8",
+    "name": "Campo Pradera"
+  },
+  {
+    "clubCode": "AMF2",
+    "name": "Real Club Verde"
+  },
+  {
+    "clubCode": "AMF3",
+    "name": "Complejo Horizonte"
+  },
+  {
+    "clubCode": "AMF4",
+    "name": "Asociaci\u00f3n Llanura"
+  },
+  {
+    "clubCode": "AMF5",
+    "name": "Campo Marina"
+  },
+  {
+    "clubCode": "AMF7",
+    "name": "Escuela Marina"
+  },
+  {
+    "clubCode": "AMF8",
+    "name": "Asociaci\u00f3n Sol"
+  },
+  {
+    "clubCode": "AMF9",
+    "name": "Centro Deportivo Llanura"
+  },
+  {
+    "clubCode": "AMG1",
+    "name": "Complejo Horizonte"
+  },
+  {
+    "clubCode": "AMG3",
+    "name": "Asociaci\u00f3n Horizonte"
+  },
+  {
+    "clubCode": "AMG4",
+    "name": "Centro Deportivo Aurora"
+  },
+  {
+    "clubCode": "AMG5",
+    "name": "Escuela Olivo"
+  },
+  {
+    "clubCode": "AMG6",
+    "name": "Asociaci\u00f3n Estrella"
+  },
+  {
+    "clubCode": "AMG8",
+    "name": "Escuela Roble"
+  },
+  {
+    "clubCode": "AMG9",
+    "name": "Complejo Colinas"
+  },
+  {
+    "clubCode": "AMH1",
+    "name": "Escuela Llanura"
+  },
+  {
+    "clubCode": "AMH2",
+    "name": "Federaci\u00f3n Monta\u00f1a"
+  },
+  {
+    "clubCode": "AMH3",
+    "name": "Club Encina"
+  },
+  {
+    "clubCode": "AMH4",
+    "name": "Complejo Llanura"
+  },
+  {
+    "clubCode": "AMH5",
+    "name": "Escuela Costa"
+  },
+  {
+    "clubCode": "AMH6",
+    "name": "Real Club Roble"
+  },
+  {
+    "clubCode": "AMH7",
+    "name": "Centro Deportivo Valle"
+  },
+  {
+    "clubCode": "AMH8",
+    "name": "Asociaci\u00f3n Olivo"
+  },
+  {
+    "clubCode": "AMH9",
+    "name": "Federaci\u00f3n Verde"
+  },
+  {
+    "clubCode": "AMI1",
+    "name": "Club Valle"
+  },
+  {
+    "clubCode": "AMI2",
+    "name": "Golf Monta\u00f1a"
+  },
+  {
+    "clubCode": "AMI3",
+    "name": "Complejo Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AMI4",
+    "name": "Club Verde"
+  },
+  {
+    "clubCode": "AMI5",
+    "name": "Federaci\u00f3n Estrella"
+  },
+  {
+    "clubCode": "AMI6",
+    "name": "Escuela Verde"
+  },
+  {
+    "clubCode": "AMI7",
+    "name": "Campo Abedul"
+  },
+  {
+    "clubCode": "AMI8",
+    "name": "Real Club Llanura"
+  },
+  {
+    "clubCode": "AMI9",
+    "name": "Real Club Niebla"
+  },
+  {
+    "clubCode": "AMJ1",
+    "name": "Campo Horizonte"
+  },
+  {
+    "clubCode": "AMJ2",
+    "name": "Federaci\u00f3n Sol"
+  },
+  {
+    "clubCode": "AMJ3",
+    "name": "Federaci\u00f3n Pradera"
+  },
+  {
+    "clubCode": "AMJ4",
+    "name": "Escuela Colinas"
+  },
+  {
+    "clubCode": "AMJ5",
+    "name": "Complejo Marina"
+  },
+  {
+    "clubCode": "AMJ6",
+    "name": "Campo Llanura"
+  },
+  {
+    "clubCode": "AMJ7",
+    "name": "Real Club Oc\u00e9ano"
+  },
+  {
+    "clubCode": "AMJ8",
+    "name": "Golf Marina"
+  },
+  {
+    "clubCode": "AMJ9",
+    "name": "Centro Deportivo Pinares"
+  },
+  {
+    "clubCode": "AMK1",
+    "name": "Asociaci\u00f3n Sauce"
+  },
+  {
+    "clubCode": "AMK2",
+    "name": "Asociaci\u00f3n Colinas"
+  },
+  {
+    "clubCode": "AMK3",
+    "name": "Campo Sauce"
+  },
+  {
+    "clubCode": "AMLP",
+    "name": "Real Club Estrella"
+  },
+  {
+    "clubCode": "AMXX",
+    "name": "Instituto Monta\u00f1a"
+  },
+  {
+    "clubCode": "BP00",
+    "name": "Campo Oc\u00e9ano"
+  },
+  {
+    "clubCode": "BP01",
+    "name": "Federaci\u00f3n Colinas"
+  },
+  {
+    "clubCode": "BP02",
+    "name": "Federaci\u00f3n Marina"
+  },
+  {
+    "clubCode": "BP05",
+    "name": "Federaci\u00f3n Oc\u00e9ano"
+  },
+  {
+    "clubCode": "BP06",
+    "name": "Golf Olivo"
+  },
+  {
+    "clubCode": "BP07",
+    "name": "Club Costa"
+  },
+  {
+    "clubCode": "BP09",
+    "name": "Campo Olivo"
+  },
+  {
+    "clubCode": "BP10",
+    "name": "Campo Sol"
+  },
+  {
+    "clubCode": "BP11",
+    "name": "Real Club Monta\u00f1a"
+  },
+  {
+    "clubCode": "BP12",
+    "name": "Campo Pinares"
+  },
+  {
+    "clubCode": "BP13",
+    "name": "Complejo Sierra"
+  },
+  {
+    "clubCode": "BP14",
+    "name": "Golf Encina"
+  },
+  {
+    "clubCode": "BP15",
+    "name": "Club Aurora"
+  },
+  {
+    "clubCode": "BP16",
+    "name": "Asociaci\u00f3n Horizonte"
+  },
+  {
+    "clubCode": "BP17",
+    "name": "Instituto Oc\u00e9ano"
+  },
+  {
+    "clubCode": "BP18",
+    "name": "Golf Colinas"
+  },
+  {
+    "clubCode": "BP19",
+    "name": "Campo Encina"
+  },
+  {
+    "clubCode": "BP51",
+    "name": "Club Estrella"
+  },
+  {
+    "clubCode": "BP52",
+    "name": "Asociaci\u00f3n Verde"
+  },
+  {
+    "clubCode": "BP55",
+    "name": "Complejo Costa"
+  },
+  {
+    "clubCode": "BP56",
+    "name": "Centro Deportivo Estrella"
+  },
+  {
+    "clubCode": "BP57",
+    "name": "Campo Verde"
+  },
+  {
+    "clubCode": "BP58",
+    "name": "Escuela Aurora"
+  },
+  {
+    "clubCode": "BP59",
+    "name": "Real Club Sol"
+  },
+  {
+    "clubCode": "CB00",
+    "name": "Instituto Niebla"
+  },
+  {
+    "clubCode": "CB01",
+    "name": "Golf Sauce"
+  },
+  {
+    "clubCode": "CB02",
+    "name": "Instituto Llanura"
+  },
+  {
+    "clubCode": "CB03",
+    "name": "Escuela Horizonte"
+  },
+  {
+    "clubCode": "CB04",
+    "name": "Complejo Aurora"
+  },
+  {
+    "clubCode": "CB05",
+    "name": "Asociaci\u00f3n Pradera"
+  },
+  {
+    "clubCode": "CB06",
+    "name": "Club Monta\u00f1a"
+  },
+  {
+    "clubCode": "CB07",
+    "name": "Complejo Abedul"
+  },
+  {
+    "clubCode": "CB08",
+    "name": "Federaci\u00f3n Sauce"
+  },
+  {
+    "clubCode": "CB09",
+    "name": "Centro Deportivo Olivo"
+  },
+  {
+    "clubCode": "CB10",
+    "name": "Golf Verde"
+  },
+  {
+    "clubCode": "CB12",
+    "name": "Club Roble"
+  },
+  {
+    "clubCode": "CB13",
+    "name": "Golf Aurora"
+  },
+  {
+    "clubCode": "CB17",
+    "name": "Golf Costa"
+  },
+  {
+    "clubCode": "CB18",
+    "name": "Instituto Horizonte"
+  },
+  {
+    "clubCode": "CB19",
+    "name": "Golf Horizonte"
+  },
+  {
+    "clubCode": "CB22",
+    "name": "Centro Deportivo Colinas"
+  },
+  {
+    "clubCode": "CB23",
+    "name": "Real Club Aurora"
+  },
+  {
+    "clubCode": "CB24",
+    "name": "Complejo Pradera"
+  },
+  {
+    "clubCode": "CB26",
+    "name": "Complejo Encina"
+  },
+  {
+    "clubCode": "CB27",
+    "name": "Real Club Marina"
+  },
+  {
+    "clubCode": "CB28",
+    "name": "Centro Deportivo Sauce"
+  },
+  {
+    "clubCode": "CB29",
+    "name": "Instituto Encina"
+  },
+  {
+    "clubCode": "CB30",
+    "name": "Complejo Roble"
+  },
+  {
+    "clubCode": "CB32",
+    "name": "Federaci\u00f3n Sierra"
+  },
+  {
+    "clubCode": "CB33",
+    "name": "Golf Sol"
+  },
+  {
+    "clubCode": "CB34",
+    "name": "Club Llanura"
+  },
+  {
+    "clubCode": "CB35",
+    "name": "Complejo Sauce"
+  },
+  {
+    "clubCode": "CB36",
+    "name": "Campo Aurora"
+  },
+  {
+    "clubCode": "CB38",
+    "name": "Complejo Estrella"
+  },
+  {
+    "clubCode": "CB42",
+    "name": "Real Club Valle"
+  },
+  {
+    "clubCode": "CB44",
+    "name": "Club Olivo"
+  },
+  {
+    "clubCode": "CB47",
+    "name": "Federaci\u00f3n Abedul"
+  },
+  {
+    "clubCode": "CB49",
+    "name": "Asociaci\u00f3n Marina"
+  },
+  {
+    "clubCode": "CB50",
+    "name": "Asociaci\u00f3n Monta\u00f1a"
+  },
+  {
+    "clubCode": "CB52",
+    "name": "Escuela Sierra"
+  }
+]

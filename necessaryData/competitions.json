@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "Masters Senior",
+    "club": "CM29",
+    "startDate": "2042-03-18 02:04:00",
+    "places": 251
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "AM11",
+    "startDate": "2045-02-01 00:37:00",
+    "places": 394
+  },
+  {
+    "name": "Torneo Anual de Oto\u00f1o",
+    "club": "CM29",
+    "startDate": "2035-05-21 17:24:00",
+    "places": 354
+  },
+  {
+    "name": "Torneo Anual de Primavera",
+    "club": "CB66",
+    "startDate": "2036-05-28 02:20:00",
+    "places": 344
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "AMG3",
+    "startDate": "2044-05-16 15:06:00",
+    "places": 124
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "CB38",
+    "startDate": "2040-07-05 21:20:00",
+    "places": 390
+  },
+  {
+    "name": "Open Nacional",
+    "club": "CB38",
+    "startDate": "2045-11-08 07:18:00",
+    "places": 404
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "CB96",
+    "startDate": "2040-10-18 06:50:00",
+    "places": 407
+  },
+  {
+    "name": "Cup Regional",
+    "club": "CB29",
+    "startDate": "2045-08-22 10:36:00",
+    "places": 315
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "CM29",
+    "startDate": "2040-02-13 05:02:00",
+    "places": 275
+  },
+  {
+    "name": "Masters de Verano",
+    "club": "BP59",
+    "startDate": "2044-04-18 18:24:00",
+    "places": 206
+  },
+  {
+    "name": "Challenge Nacional",
+    "club": "BP59",
+    "startDate": "2043-09-06 11:34:00",
+    "places": 451
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "CBB5",
+    "startDate": "2036-02-09 22:29:00",
+    "places": 205
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB00",
+    "startDate": "2045-04-29 11:50:00",
+    "places": 499
+  },
+  {
+    "name": "Challenge Junior",
+    "club": "AMJ1",
+    "startDate": "2040-06-15 15:30:00",
+    "places": 207
+  },
+  {
+    "name": "Masters Regional",
+    "club": "CB62",
+    "startDate": "2039-04-21 14:21:00",
+    "places": 219
+  },
+  {
+    "name": "Cup Junior",
+    "club": "CB96",
+    "startDate": "2036-09-19 23:47:00",
+    "places": 385
+  },
+  {
+    "name": "Pro-Am Junior",
+    "club": "CB91",
+    "startDate": "2040-04-13 08:36:00",
+    "places": 117
+  },
+  {
+    "name": "Masters de Invierno",
+    "club": "BP16",
+    "startDate": "2037-10-08 15:48:00",
+    "places": 103
+  },
+  {
+    "name": "Championship Amateur",
+    "club": "CB00",
+    "startDate": "2039-12-20 10:59:00",
+    "places": 142
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "CM29",
+    "startDate": "2043-01-04 18:36:00",
+    "places": 332
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "CB91",
+    "startDate": "2036-11-11 16:42:00",
+    "places": 128
+  },
+  {
+    "name": "Open de Oto\u00f1o",
+    "club": "CB00",
+    "startDate": "2036-06-21 20:58:00",
+    "places": 311
+  },
+  {
+    "name": "Cup Senior",
+    "club": "CB29",
+    "startDate": "2040-07-12 20:26:00",
+    "places": 343
+  },
+  {
+    "name": "Cup Senior",
+    "club": "CB66",
+    "startDate": "2043-01-07 07:42:00",
+    "places": 382
+  },
+  {
+    "name": "Open Junior",
+    "club": "CB91",
+    "startDate": "2039-02-27 23:13:00",
+    "places": 457
+  },
+  {
+    "name": "Torneo Anual Elite",
+    "club": "CB91",
+    "startDate": "2036-01-17 12:59:00",
+    "places": 495
+  },
+  {
+    "name": "Open Elite",
+    "club": "CB66",
+    "startDate": "2040-12-12 05:42:00",
+    "places": 120
+  },
+  {
+    "name": "Invitational de Oto\u00f1o",
+    "club": "CM29",
+    "startDate": "2036-02-12 12:35:00",
+    "places": 304
+  },
+  {
+    "name": "Masters Junior",
+    "club": "AM11",
+    "startDate": "2045-09-10 13:51:00",
+    "places": 481
+  },
+  {
+    "name": "Cup de Primavera",
+    "club": "AM09",
+    "startDate": "2044-02-08 20:57:00",
+    "places": 285
+  },
+  {
+    "name": "Invitational de Oto\u00f1o",
+    "club": "AM09",
+    "startDate": "2036-03-23 12:45:00",
+    "places": 382
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "CB91",
+    "startDate": "2043-02-19 14:03:00",
+    "places": 462
+  },
+  {
+    "name": "Grand Prix de Invierno",
+    "club": "CB29",
+    "startDate": "2038-06-19 06:21:00",
+    "places": 111
+  },
+  {
+    "name": "Cup Amateur",
+    "club": "AM92",
+    "startDate": "2044-06-27 09:02:00",
+    "places": 306
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "CB62",
+    "startDate": "2043-08-15 21:23:00",
+    "places": 447
+  },
+  {
+    "name": "Grand Prix de Oto\u00f1o",
+    "club": "CB96",
+    "startDate": "2037-12-03 22:07:00",
+    "places": 117
+  },
+  {
+    "name": "Masters Junior",
+    "club": "BP16",
+    "startDate": "2037-03-03 14:23:00",
+    "places": 254
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "CB66",
+    "startDate": "2043-12-20 21:00:00",
+    "places": 355
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "BP16",
+    "startDate": "2041-01-29 15:18:00",
+    "places": 379
+  },
+  {
+    "name": "Invitational de Invierno",
+    "club": "BP59",
+    "startDate": "2043-12-31 18:53:00",
+    "places": 297
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "BP16",
+    "startDate": "2039-03-01 05:12:00",
+    "places": 430
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "BP59",
+    "startDate": "2038-02-06 07:37:00",
+    "places": 494
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "AMJ1",
+    "startDate": "2038-06-05 10:30:00",
+    "places": 273
+  },
+  {
+    "name": "Torneo Anual Junior",
+    "club": "CB96",
+    "startDate": "2036-06-19 21:55:00",
+    "places": 150
+  },
+  {
+    "name": "Masters Regional",
+    "club": "AMG3",
+    "startDate": "2037-12-08 02:33:00",
+    "places": 396
+  },
+  {
+    "name": "Torneo Anual de Primavera",
+    "club": "AM92",
+    "startDate": "2040-07-10 07:26:00",
+    "places": 496
+  },
+  {
+    "name": "Challenge Junior",
+    "club": "CB91",
+    "startDate": "2043-05-05 14:39:00",
+    "places": 192
+  },
+  {
+    "name": "Open Regional",
+    "club": "CM29",
+    "startDate": "2037-09-02 00:53:00",
+    "places": 317
+  },
+  {
+    "name": "Open Junior",
+    "club": "CB91",
+    "startDate": "2043-01-29 23:15:00",
+    "places": 473
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "CB96",
+    "startDate": "2038-08-15 14:54:00",
+    "places": 427
+  },
+  {
+    "name": "Championship de Verano",
+    "club": "AM70",
+    "startDate": "2044-03-27 18:10:00",
+    "places": 144
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "AM11",
+    "startDate": "2042-09-18 18:04:00",
+    "places": 398
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "CB38",
+    "startDate": "2037-03-07 05:45:00",
+    "places": 236
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB96",
+    "startDate": "2038-04-05 07:32:00",
+    "places": 162
+  },
+  {
+    "name": "Torneo Anual Elite",
+    "club": "CB30",
+    "startDate": "2036-12-25 10:36:00",
+    "places": 471
+  },
+  {
+    "name": "Open Junior",
+    "club": "CB91",
+    "startDate": "2041-06-04 23:56:00",
+    "places": 314
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "AMJ1",
+    "startDate": "2037-09-13 07:56:00",
+    "places": 188
+  },
+  {
+    "name": "Invitational Amateur",
+    "club": "AM70",
+    "startDate": "2037-12-03 02:20:00",
+    "places": 421
+  },
+  {
+    "name": "Grand Prix Senior",
+    "club": "CB38",
+    "startDate": "2042-02-16 22:13:00",
+    "places": 293
+  },
+  {
+    "name": "Championship de Verano",
+    "club": "AM09",
+    "startDate": "2041-12-15 01:10:00",
+    "places": 447
+  },
+  {
+    "name": "Championship Senior",
+    "club": "CB38",
+    "startDate": "2037-09-22 16:52:00",
+    "places": 223
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB30",
+    "startDate": "2043-07-06 01:23:00",
+    "places": 369
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "AM09",
+    "startDate": "2045-08-15 23:01:00",
+    "places": 297
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "CBB5",
+    "startDate": "2038-09-07 07:20:00",
+    "places": 451
+  },
+  {
+    "name": "Challenge Junior",
+    "club": "CB91",
+    "startDate": "2044-02-06 17:47:00",
+    "places": 213
+  },
+  {
+    "name": "Grand Prix de Primavera",
+    "club": "CB00",
+    "startDate": "2044-04-06 04:19:00",
+    "places": 139
+  },
+  {
+    "name": "Torneo Anual Regional",
+    "club": "BP14",
+    "startDate": "2038-06-29 09:57:00",
+    "places": 257
+  },
+  {
+    "name": "Invitational de Invierno",
+    "club": "CB96",
+    "startDate": "2040-11-24 20:27:00",
+    "places": 475
+  },
+  {
+    "name": "Grand Prix Amateur",
+    "club": "CB66",
+    "startDate": "2044-01-05 14:34:00",
+    "places": 402
+  },
+  {
+    "name": "Pro-Am Senior",
+    "club": "AM11",
+    "startDate": "2037-05-21 01:48:00",
+    "places": 151
+  },
+  {
+    "name": "Invitational Regional",
+    "club": "CB00",
+    "startDate": "2036-02-08 22:11:00",
+    "places": 167
+  },
+  {
+    "name": "Cl\u00e1sico Amateur",
+    "club": "CB00",
+    "startDate": "2041-06-06 15:47:00",
+    "places": 218
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "AM70",
+    "startDate": "2043-07-24 21:49:00",
+    "places": 328
+  },
+  {
+    "name": "Championship Junior",
+    "club": "CB66",
+    "startDate": "2041-10-29 16:49:00",
+    "places": 378
+  },
+  {
+    "name": "Grand Prix Elite",
+    "club": "AMG4",
+    "startDate": "2040-04-10 20:18:00",
+    "places": 260
+  },
+  {
+    "name": "Invitational de Verano",
+    "club": "CB62",
+    "startDate": "2035-01-17 12:54:00",
+    "places": 217
+  },
+  {
+    "name": "Grand Prix Nacional",
+    "club": "CB38",
+    "startDate": "2045-09-16 18:51:00",
+    "places": 364
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "CB00",
+    "startDate": "2036-09-19 21:17:00",
+    "places": 181
+  },
+  {
+    "name": "Open de Primavera",
+    "club": "BP59",
+    "startDate": "2037-01-20 05:18:00",
+    "places": 465
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "BP59",
+    "startDate": "2037-01-26 06:07:00",
+    "places": 356
+  },
+  {
+    "name": "Pro-Am de Primavera",
+    "club": "CB29",
+    "startDate": "2038-03-22 08:05:00",
+    "places": 351
+  },
+  {
+    "name": "Open Amateur",
+    "club": "AM09",
+    "startDate": "2042-10-20 21:26:00",
+    "places": 374
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "CB38",
+    "startDate": "2040-02-13 09:51:00",
+    "places": 250
+  },
+  {
+    "name": "Torneo Anual Amateur",
+    "club": "CB62",
+    "startDate": "2040-05-02 20:29:00",
+    "places": 269
+  },
+  {
+    "name": "Invitational Amateur",
+    "club": "AMJ1",
+    "startDate": "2040-10-15 17:59:00",
+    "places": 283
+  },
+  {
+    "name": "Grand Prix Regional",
+    "club": "AM92",
+    "startDate": "2040-02-16 02:20:00",
+    "places": 437
+  },
+  {
+    "name": "Championship Nacional",
+    "club": "CM29",
+    "startDate": "2042-07-26 02:49:00",
+    "places": 468
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "AM11",
+    "startDate": "2035-06-20 02:34:00",
+    "places": 180
+  },
+  {
+    "name": "Masters Amateur",
+    "club": "AM09",
+    "startDate": "2036-05-11 18:10:00",
+    "places": 287
+  },
+  {
+    "name": "Championship Senior",
+    "club": "AM92",
+    "startDate": "2043-10-07 19:39:00",
+    "places": 133
+  },
+  {
+    "name": "Masters de Invierno",
+    "club": "AMG4",
+    "startDate": "2044-01-23 22:41:00",
+    "places": 260
+  },
+  {
+    "name": "Grand Prix Amateur",
+    "club": "BP14",
+    "startDate": "2037-07-11 01:53:00",
+    "places": 289
+  },
+  {
+    "name": "Grand Prix de Oto\u00f1o",
+    "club": "BP14",
+    "startDate": "2039-06-30 20:02:00",
+    "places": 491
+  },
+  {
+    "name": "Masters de Primavera",
+    "club": "CM29",
+    "startDate": "2038-10-15 03:05:00",
+    "places": 369
+  },
+  {
+    "name": "Cup de Primavera",
+    "club": "CB62",
+    "startDate": "2043-04-06 07:16:00",
+    "places": 445
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "CB62",
+    "startDate": "2036-09-16 13:00:00",
+    "places": 360
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "BP16",
+    "startDate": "2036-06-17 02:29:00",
+    "places": 179
+  },
+  {
+    "name": "Grand Prix de Oto\u00f1o",
+    "club": "CB96",
+    "startDate": "2042-03-03 22:37:00",
+    "places": 123
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "BP14",
+    "startDate": "2044-06-15 21:32:00",
+    "places": 163
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "AM09",
+    "startDate": "2038-07-27 11:48:00",
+    "places": 165
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "CB91",
+    "startDate": "2039-06-08 02:17:00",
+    "places": 427
+  },
+  {
+    "name": "Grand Prix Elite",
+    "club": "CB66",
+    "startDate": "2045-11-04 17:22:00",
+    "places": 111
+  },
+  {
+    "name": "Championship de Oto\u00f1o",
+    "club": "CM29",
+    "startDate": "2045-06-26 04:23:00",
+    "places": 496
+  },
+  {
+    "name": "Torneo Anual Regional",
+    "club": "AMJ1",
+    "startDate": "2045-05-14 06:48:00",
+    "places": 411
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "AMG4",
+    "startDate": "2044-10-19 22:30:00",
+    "places": 118
+  },
+  {
+    "name": "Open Senior",
+    "club": "AMG4",
+    "startDate": "2045-12-02 06:17:00",
+    "places": 209
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "AM70",
+    "startDate": "2035-03-27 20:06:00",
+    "places": 330
+  },
+  {
+    "name": "Open de Verano",
+    "club": "CB66",
+    "startDate": "2041-02-11 02:28:00",
+    "places": 118
+  },
+  {
+    "name": "Cup Regional",
+    "club": "AM92",
+    "startDate": "2039-01-14 06:04:00",
+    "places": 378
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "AM11",
+    "startDate": "2038-08-06 06:53:00",
+    "places": 121
+  },
+  {
+    "name": "Cup de Invierno",
+    "club": "AMG3",
+    "startDate": "2045-02-06 07:58:00",
+    "places": 358
+  },
+  {
+    "name": "Cup Amateur",
+    "club": "AM09",
+    "startDate": "2044-04-23 13:43:00",
+    "places": 462
+  },
+  {
+    "name": "Cl\u00e1sico de Invierno",
+    "club": "AM11",
+    "startDate": "2038-01-27 21:29:00",
+    "places": 495
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB66",
+    "startDate": "2037-01-30 21:40:00",
+    "places": 247
+  },
+  {
+    "name": "Open Senior",
+    "club": "AM09",
+    "startDate": "2036-04-21 00:43:00",
+    "places": 318
+  },
+  {
+    "name": "Masters Senior",
+    "club": "AM11",
+    "startDate": "2040-09-20 22:46:00",
+    "places": 328
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "AM70",
+    "startDate": "2037-12-23 14:54:00",
+    "places": 103
+  },
+  {
+    "name": "Championship Junior",
+    "club": "CB91",
+    "startDate": "2035-07-02 06:51:00",
+    "places": 437
+  },
+  {
+    "name": "Torneo Anual Amateur",
+    "club": "CB30",
+    "startDate": "2040-11-21 04:03:00",
+    "places": 126
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "CB62",
+    "startDate": "2040-04-18 11:40:00",
+    "places": 167
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "AM70",
+    "startDate": "2039-08-13 17:17:00",
+    "places": 298
+  },
+  {
+    "name": "Cup de Invierno",
+    "club": "CM29",
+    "startDate": "2038-10-22 07:21:00",
+    "places": 209
+  },
+  {
+    "name": "Cl\u00e1sico de Invierno",
+    "club": "AMG3",
+    "startDate": "2036-08-02 20:45:00",
+    "places": 131
+  },
+  {
+    "name": "Masters Nacional",
+    "club": "AMG4",
+    "startDate": "2038-02-01 02:16:00",
+    "places": 480
+  },
+  {
+    "name": "Invitational Regional",
+    "club": "AMJ1",
+    "startDate": "2038-04-29 12:16:00",
+    "places": 415
+  },
+  {
+    "name": "Torneo Anual Regional",
+    "club": "CB00",
+    "startDate": "2038-02-01 14:20:00",
+    "places": 337
+  },
+  {
+    "name": "Torneo Anual Nacional",
+    "club": "AM09",
+    "startDate": "2043-03-11 07:59:00",
+    "places": 303
+  },
+  {
+    "name": "Championship Senior",
+    "club": "CB30",
+    "startDate": "2040-07-04 11:52:00",
+    "places": 333
+  },
+  {
+    "name": "Challenge de Oto\u00f1o",
+    "club": "CM29",
+    "startDate": "2040-12-02 23:24:00",
+    "places": 136
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "CB62",
+    "startDate": "2039-01-11 10:00:00",
+    "places": 493
+  },
+  {
+    "name": "Pro-Am Junior",
+    "club": "AM92",
+    "startDate": "2041-03-08 04:03:00",
+    "places": 243
+  },
+  {
+    "name": "Open Junior",
+    "club": "CB00",
+    "startDate": "2041-02-08 08:31:00",
+    "places": 397
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "AMJ1",
+    "startDate": "2035-02-18 13:37:00",
+    "places": 223
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "AMG3",
+    "startDate": "2040-01-26 15:57:00",
+    "places": 391
+  },
+  {
+    "name": "Pro-Am Amateur",
+    "club": "CBB5",
+    "startDate": "2045-03-10 13:07:00",
+    "places": 149
+  },
+  {
+    "name": "Invitational de Oto\u00f1o",
+    "club": "AMG3",
+    "startDate": "2035-08-27 09:12:00",
+    "places": 398
+  },
+  {
+    "name": "Cup Junior",
+    "club": "CB91",
+    "startDate": "2044-09-28 06:31:00",
+    "places": 256
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "CBB5",
+    "startDate": "2045-02-05 00:54:00",
+    "places": 315
+  },
+  {
+    "name": "Grand Prix de Primavera",
+    "club": "CBB5",
+    "startDate": "2038-09-20 18:23:00",
+    "places": 406
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "CB62",
+    "startDate": "2044-03-07 02:22:00",
+    "places": 434
+  },
+  {
+    "name": "Grand Prix Senior",
+    "club": "AMG4",
+    "startDate": "2043-11-11 07:27:00",
+    "places": 273
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "BP14",
+    "startDate": "2039-04-29 15:40:00",
+    "places": 229
+  },
+  {
+    "name": "Championship de Verano",
+    "club": "CB66",
+    "startDate": "2042-09-07 03:13:00",
+    "places": 118
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "AMG4",
+    "startDate": "2041-02-27 21:16:00",
+    "places": 440
+  },
+  {
+    "name": "Torneo Anual de Verano",
+    "club": "CB62",
+    "startDate": "2045-06-24 22:47:00",
+    "places": 412
+  },
+  {
+    "name": "Cl\u00e1sico Elite",
+    "club": "CB91",
+    "startDate": "2041-05-28 05:31:00",
+    "places": 281
+  },
+  {
+    "name": "Challenge de Oto\u00f1o",
+    "club": "AM70",
+    "startDate": "2042-04-23 05:51:00",
+    "places": 110
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "AM11",
+    "startDate": "2035-04-19 17:27:00",
+    "places": 257
+  },
+  {
+    "name": "Cup de Primavera",
+    "club": "CB66",
+    "startDate": "2045-06-08 10:57:00",
+    "places": 182
+  },
+  {
+    "name": "Torneo Anual Junior",
+    "club": "BP59",
+    "startDate": "2040-09-16 22:31:00",
+    "places": 121
+  },
+  {
+    "name": "Masters Junior",
+    "club": "AM92",
+    "startDate": "2038-08-07 05:14:00",
+    "places": 253
+  },
+  {
+    "name": "Challenge Elite",
+    "club": "AMG4",
+    "startDate": "2038-10-05 03:25:00",
+    "places": 283
+  },
+  {
+    "name": "Challenge Regional",
+    "club": "BP14",
+    "startDate": "2041-01-07 20:09:00",
+    "places": 494
+  },
+  {
+    "name": "Cup Elite",
+    "club": "BP59",
+    "startDate": "2035-10-23 17:24:00",
+    "places": 396
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB30",
+    "startDate": "2042-02-07 05:34:00",
+    "places": 345
+  },
+  {
+    "name": "Grand Prix Senior",
+    "club": "AM09",
+    "startDate": "2037-09-25 08:56:00",
+    "places": 220
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "CB00",
+    "startDate": "2035-01-21 13:58:00",
+    "places": 101
+  },
+  {
+    "name": "Cup de Primavera",
+    "club": "CB96",
+    "startDate": "2038-05-31 03:57:00",
+    "places": 495
+  },
+  {
+    "name": "Challenge Elite",
+    "club": "AM92",
+    "startDate": "2036-02-02 11:10:00",
+    "places": 176
+  },
+  {
+    "name": "Torneo Anual Nacional",
+    "club": "BP59",
+    "startDate": "2040-10-31 11:39:00",
+    "places": 197
+  },
+  {
+    "name": "Open de Oto\u00f1o",
+    "club": "AMG4",
+    "startDate": "2037-05-29 03:04:00",
+    "places": 111
+  },
+  {
+    "name": "Open Nacional",
+    "club": "CB29",
+    "startDate": "2036-01-01 10:28:00",
+    "places": 294
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "BP14",
+    "startDate": "2037-06-21 16:59:00",
+    "places": 148
+  },
+  {
+    "name": "Masters Nacional",
+    "club": "AM11",
+    "startDate": "2045-03-05 07:33:00",
+    "places": 360
+  },
+  {
+    "name": "Torneo Anual Elite",
+    "club": "CM29",
+    "startDate": "2042-11-08 13:25:00",
+    "places": 366
+  },
+  {
+    "name": "Open de Verano",
+    "club": "AMG4",
+    "startDate": "2040-07-11 05:28:00",
+    "places": 288
+  },
+  {
+    "name": "Open de Oto\u00f1o",
+    "club": "CB30",
+    "startDate": "2038-04-26 09:38:00",
+    "places": 477
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "AMJ1",
+    "startDate": "2040-06-19 13:39:00",
+    "places": 295
+  },
+  {
+    "name": "Cup de Primavera",
+    "club": "AM11",
+    "startDate": "2043-08-22 00:40:00",
+    "places": 405
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "AMG4",
+    "startDate": "2043-04-28 22:14:00",
+    "places": 270
+  },
+  {
+    "name": "Masters Senior",
+    "club": "CB29",
+    "startDate": "2038-01-31 03:48:00",
+    "places": 173
+  },
+  {
+    "name": "Open Regional",
+    "club": "AM92",
+    "startDate": "2045-12-28 03:14:00",
+    "places": 477
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "AM09",
+    "startDate": "2045-02-15 23:53:00",
+    "places": 114
+  },
+  {
+    "name": "Pro-Am de Primavera",
+    "club": "CB91",
+    "startDate": "2041-11-18 11:41:00",
+    "places": 327
+  },
+  {
+    "name": "Championship Amateur",
+    "club": "AM11",
+    "startDate": "2036-05-09 10:27:00",
+    "places": 445
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "AM92",
+    "startDate": "2035-05-18 21:22:00",
+    "places": 381
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "CB91",
+    "startDate": "2044-01-31 23:12:00",
+    "places": 323
+  },
+  {
+    "name": "Torneo Anual de Verano",
+    "club": "BP14",
+    "startDate": "2039-01-26 16:55:00",
+    "places": 127
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "CBB5",
+    "startDate": "2042-10-10 14:20:00",
+    "places": 285
+  },
+  {
+    "name": "Masters de Primavera",
+    "club": "CB96",
+    "startDate": "2039-02-04 05:21:00",
+    "places": 494
+  },
+  {
+    "name": "Invitational Nacional",
+    "club": "AMG4",
+    "startDate": "2039-03-30 22:19:00",
+    "places": 181
+  },
+  {
+    "name": "Championship de Verano",
+    "club": "AMG4",
+    "startDate": "2043-09-08 13:05:00",
+    "places": 404
+  },
+  {
+    "name": "Cup de Invierno",
+    "club": "CBB5",
+    "startDate": "2040-05-11 15:26:00",
+    "places": 150
+  },
+  {
+    "name": "Cl\u00e1sico de Invierno",
+    "club": "CB62",
+    "startDate": "2041-12-23 07:02:00",
+    "places": 177
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "BP59",
+    "startDate": "2044-07-20 11:19:00",
+    "places": 345
+  },
+  {
+    "name": "Championship de Invierno",
+    "club": "AM11",
+    "startDate": "2044-10-20 13:33:00",
+    "places": 461
+  },
+  {
+    "name": "Cup Amateur",
+    "club": "AMG3",
+    "startDate": "2041-06-02 15:17:00",
+    "places": 255
+  },
+  {
+    "name": "Championship de Invierno",
+    "club": "CB30",
+    "startDate": "2041-04-03 08:41:00",
+    "places": 450
+  },
+  {
+    "name": "Championship de Oto\u00f1o",
+    "club": "AM09",
+    "startDate": "2036-02-09 12:32:00",
+    "places": 212
+  },
+  {
+    "name": "Open Senior",
+    "club": "CB30",
+    "startDate": "2044-12-30 17:52:00",
+    "places": 403
+  },
+  {
+    "name": "Invitational Regional",
+    "club": "AM09",
+    "startDate": "2035-07-24 01:57:00",
+    "places": 421
+  },
+  {
+    "name": "Pro-Am Nacional",
+    "club": "BP16",
+    "startDate": "2040-07-17 19:59:00",
+    "places": 191
+  },
+  {
+    "name": "Open Junior",
+    "club": "CB29",
+    "startDate": "2045-07-12 19:36:00",
+    "places": 446
+  },
+  {
+    "name": "Grand Prix Regional",
+    "club": "AM70",
+    "startDate": "2044-01-06 01:56:00",
+    "places": 183
+  },
+  {
+    "name": "Grand Prix de Verano",
+    "club": "CB91",
+    "startDate": "2037-11-17 16:45:00",
+    "places": 180
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "CB91",
+    "startDate": "2039-11-27 09:39:00",
+    "places": 121
+  },
+  {
+    "name": "Cup Regional",
+    "club": "CB29",
+    "startDate": "2040-10-12 19:12:00",
+    "places": 146
+  },
+  {
+    "name": "Invitational Nacional",
+    "club": "CB00",
+    "startDate": "2044-01-10 18:40:00",
+    "places": 285
+  },
+  {
+    "name": "Cup Senior",
+    "club": "CB38",
+    "startDate": "2041-08-28 14:45:00",
+    "places": 209
+  },
+  {
+    "name": "Cup de Oto\u00f1o",
+    "club": "BP59",
+    "startDate": "2037-08-25 12:29:00",
+    "places": 118
+  },
+  {
+    "name": "Grand Prix de Oto\u00f1o",
+    "club": "AM70",
+    "startDate": "2036-12-12 17:03:00",
+    "places": 284
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "CB38",
+    "startDate": "2043-11-10 19:42:00",
+    "places": 305
+  },
+  {
+    "name": "Grand Prix Regional",
+    "club": "CB91",
+    "startDate": "2035-03-02 14:34:00",
+    "places": 244
+  },
+  {
+    "name": "Championship Senior",
+    "club": "BP16",
+    "startDate": "2036-02-19 13:39:00",
+    "places": 138
+  },
+  {
+    "name": "Masters Amateur",
+    "club": "CM29",
+    "startDate": "2035-02-04 00:08:00",
+    "places": 165
+  },
+  {
+    "name": "Cl\u00e1sico de Primavera",
+    "club": "AM92",
+    "startDate": "2040-02-12 01:53:00",
+    "places": 289
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "BP14",
+    "startDate": "2038-12-04 09:46:00",
+    "places": 458
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "BP16",
+    "startDate": "2042-02-22 04:27:00",
+    "places": 289
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "AM11",
+    "startDate": "2036-11-21 09:05:00",
+    "places": 108
+  },
+  {
+    "name": "Challenge Regional",
+    "club": "AMG3",
+    "startDate": "2039-09-10 07:24:00",
+    "places": 299
+  },
+  {
+    "name": "Grand Prix de Invierno",
+    "club": "CB91",
+    "startDate": "2036-11-10 07:24:00",
+    "places": 293
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "CB29",
+    "startDate": "2045-05-03 12:09:00",
+    "places": 354
+  },
+  {
+    "name": "Championship Senior",
+    "club": "AMG3",
+    "startDate": "2043-08-29 16:34:00",
+    "places": 121
+  },
+  {
+    "name": "Torneo Anual Amateur",
+    "club": "AM09",
+    "startDate": "2040-07-30 23:27:00",
+    "places": 474
+  },
+  {
+    "name": "Cl\u00e1sico de Invierno",
+    "club": "CBB5",
+    "startDate": "2043-06-29 01:34:00",
+    "places": 118
+  },
+  {
+    "name": "Masters de Oto\u00f1o",
+    "club": "CB38",
+    "startDate": "2041-12-21 13:21:00",
+    "places": 417
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "CB38",
+    "startDate": "2036-11-09 17:53:00",
+    "places": 139
+  },
+  {
+    "name": "Torneo Anual Junior",
+    "club": "CB91",
+    "startDate": "2038-08-11 09:20:00",
+    "places": 298
+  },
+  {
+    "name": "Invitational de Oto\u00f1o",
+    "club": "CB38",
+    "startDate": "2035-03-10 16:58:00",
+    "places": 404
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "AM70",
+    "startDate": "2038-11-28 16:18:00",
+    "places": 368
+  },
+  {
+    "name": "Championship de Primavera",
+    "club": "AM70",
+    "startDate": "2045-09-04 16:38:00",
+    "places": 134
+  },
+  {
+    "name": "Invitational Junior",
+    "club": "CB91",
+    "startDate": "2038-09-01 02:37:00",
+    "places": 457
+  },
+  {
+    "name": "Cl\u00e1sico Elite",
+    "club": "BP59",
+    "startDate": "2041-07-04 16:36:00",
+    "places": 480
+  },
+  {
+    "name": "Championship de Invierno",
+    "club": "CB62",
+    "startDate": "2036-09-21 02:56:00",
+    "places": 280
+  },
+  {
+    "name": "Championship Regional",
+    "club": "BP59",
+    "startDate": "2039-06-07 11:03:00",
+    "places": 421
+  },
+  {
+    "name": "Cup Regional",
+    "club": "CB00",
+    "startDate": "2042-08-17 00:41:00",
+    "places": 103
+  },
+  {
+    "name": "Cup Junior",
+    "club": "CB29",
+    "startDate": "2043-03-27 04:18:00",
+    "places": 498
+  },
+  {
+    "name": "Grand Prix Regional",
+    "club": "AMJ1",
+    "startDate": "2038-01-04 08:31:00",
+    "places": 437
+  },
+  {
+    "name": "Masters de Oto\u00f1o",
+    "club": "CB62",
+    "startDate": "2043-04-10 03:02:00",
+    "places": 130
+  },
+  {
+    "name": "Grand Prix de Verano",
+    "club": "BP59",
+    "startDate": "2045-08-28 02:35:00",
+    "places": 144
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "AM11",
+    "startDate": "2039-05-03 12:21:00",
+    "places": 169
+  },
+  {
+    "name": "Open Senior",
+    "club": "AM11",
+    "startDate": "2038-06-02 18:05:00",
+    "places": 372
+  },
+  {
+    "name": "Cl\u00e1sico Junior",
+    "club": "AM11",
+    "startDate": "2044-11-02 00:42:00",
+    "places": 184
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "AMG3",
+    "startDate": "2036-12-28 03:51:00",
+    "places": 210
+  },
+  {
+    "name": "Grand Prix de Invierno",
+    "club": "CB29",
+    "startDate": "2042-10-09 20:54:00",
+    "places": 414
+  },
+  {
+    "name": "Torneo Anual de Verano",
+    "club": "CB00",
+    "startDate": "2036-08-03 19:03:00",
+    "places": 383
+  },
+  {
+    "name": "Cl\u00e1sico Amateur",
+    "club": "CB91",
+    "startDate": "2040-01-15 13:35:00",
+    "places": 296
+  },
+  {
+    "name": "Championship de Verano",
+    "club": "CB29",
+    "startDate": "2038-02-09 17:58:00",
+    "places": 321
+  },
+  {
+    "name": "Championship de Primavera",
+    "club": "AM09",
+    "startDate": "2045-01-28 02:24:00",
+    "places": 263
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "AM92",
+    "startDate": "2035-08-16 03:49:00",
+    "places": 289
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "CB00",
+    "startDate": "2037-09-06 04:12:00",
+    "places": 238
+  },
+  {
+    "name": "Grand Prix Nacional",
+    "club": "BP16",
+    "startDate": "2037-03-02 13:00:00",
+    "places": 326
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "AM11",
+    "startDate": "2035-04-10 07:31:00",
+    "places": 183
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "CB29",
+    "startDate": "2038-04-21 18:39:00",
+    "places": 141
+  },
+  {
+    "name": "Championship Regional",
+    "club": "CB29",
+    "startDate": "2040-12-31 03:21:00",
+    "places": 340
+  },
+  {
+    "name": "Open de Oto\u00f1o",
+    "club": "AMG3",
+    "startDate": "2039-01-18 19:17:00",
+    "places": 275
+  },
+  {
+    "name": "Open Regional",
+    "club": "BP16",
+    "startDate": "2044-10-02 01:16:00",
+    "places": 343
+  },
+  {
+    "name": "Torneo Anual de Oto\u00f1o",
+    "club": "CB29",
+    "startDate": "2040-09-04 08:20:00",
+    "places": 147
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "CB00",
+    "startDate": "2044-08-25 22:09:00",
+    "places": 149
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "CB96",
+    "startDate": "2035-01-20 20:09:00",
+    "places": 184
+  },
+  {
+    "name": "Masters de Primavera",
+    "club": "AM70",
+    "startDate": "2044-05-23 10:18:00",
+    "places": 436
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "AMG3",
+    "startDate": "2040-06-06 13:28:00",
+    "places": 149
+  },
+  {
+    "name": "Cl\u00e1sico Elite",
+    "club": "AMG3",
+    "startDate": "2035-12-20 16:21:00",
+    "places": 342
+  },
+  {
+    "name": "Championship Elite",
+    "club": "CB96",
+    "startDate": "2042-04-07 02:45:00",
+    "places": 238
+  },
+  {
+    "name": "Masters de Primavera",
+    "club": "AM09",
+    "startDate": "2040-06-01 03:09:00",
+    "places": 412
+  },
+  {
+    "name": "Cup de Verano",
+    "club": "CB30",
+    "startDate": "2040-04-25 20:10:00",
+    "places": 357
+  },
+  {
+    "name": "Challenge Regional",
+    "club": "CB66",
+    "startDate": "2036-08-12 09:20:00",
+    "places": 471
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "CB30",
+    "startDate": "2038-05-28 06:37:00",
+    "places": 273
+  },
+  {
+    "name": "Cup Junior",
+    "club": "AMJ1",
+    "startDate": "2043-07-22 00:29:00",
+    "places": 211
+  },
+  {
+    "name": "Masters de Oto\u00f1o",
+    "club": "CB96",
+    "startDate": "2036-07-26 06:56:00",
+    "places": 424
+  },
+  {
+    "name": "Grand Prix de Primavera",
+    "club": "BP14",
+    "startDate": "2045-08-20 09:15:00",
+    "places": 107
+  },
+  {
+    "name": "Championship de Invierno",
+    "club": "CB00",
+    "startDate": "2037-10-30 19:09:00",
+    "places": 330
+  },
+  {
+    "name": "Open Elite",
+    "club": "CM29",
+    "startDate": "2039-12-11 10:18:00",
+    "places": 276
+  },
+  {
+    "name": "Cl\u00e1sico de Primavera",
+    "club": "CM29",
+    "startDate": "2044-02-22 05:48:00",
+    "places": 124
+  },
+  {
+    "name": "Championship Junior",
+    "club": "AM11",
+    "startDate": "2044-09-01 17:47:00",
+    "places": 237
+  },
+  {
+    "name": "Challenge Nacional",
+    "club": "BP14",
+    "startDate": "2036-03-16 03:02:00",
+    "places": 287
+  },
+  {
+    "name": "Grand Prix de Primavera",
+    "club": "CB29",
+    "startDate": "2041-07-27 21:30:00",
+    "places": 155
+  },
+  {
+    "name": "Masters Regional",
+    "club": "BP16",
+    "startDate": "2035-05-07 08:36:00",
+    "places": 115
+  },
+  {
+    "name": "Championship Senior",
+    "club": "CB00",
+    "startDate": "2037-03-23 02:03:00",
+    "places": 186
+  },
+  {
+    "name": "Championship de Verano",
+    "club": "CB38",
+    "startDate": "2040-01-26 18:32:00",
+    "places": 346
+  },
+  {
+    "name": "Championship de Invierno",
+    "club": "CBB5",
+    "startDate": "2036-08-07 12:53:00",
+    "places": 261
+  },
+  {
+    "name": "Grand Prix de Invierno",
+    "club": "AM92",
+    "startDate": "2045-04-12 04:46:00",
+    "places": 490
+  },
+  {
+    "name": "Torneo Anual de Invierno",
+    "club": "CB00",
+    "startDate": "2042-11-27 11:57:00",
+    "places": 179
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "AM70",
+    "startDate": "2041-03-05 00:52:00",
+    "places": 386
+  },
+  {
+    "name": "Challenge Nacional",
+    "club": "BP16",
+    "startDate": "2036-03-05 08:53:00",
+    "places": 423
+  },
+  {
+    "name": "Championship Junior",
+    "club": "AM70",
+    "startDate": "2041-07-22 02:24:00",
+    "places": 328
+  },
+  {
+    "name": "Masters de Invierno",
+    "club": "AM11",
+    "startDate": "2044-09-15 17:03:00",
+    "places": 122
+  },
+  {
+    "name": "Torneo Anual Regional",
+    "club": "CB00",
+    "startDate": "2036-08-23 17:09:00",
+    "places": 332
+  },
+  {
+    "name": "Championship Junior",
+    "club": "AM92",
+    "startDate": "2037-02-09 08:10:00",
+    "places": 495
+  },
+  {
+    "name": "Torneo Anual de Oto\u00f1o",
+    "club": "BP14",
+    "startDate": "2044-06-29 08:53:00",
+    "places": 215
+  },
+  {
+    "name": "Invitational de Verano",
+    "club": "AM70",
+    "startDate": "2041-01-21 23:53:00",
+    "places": 208
+  },
+  {
+    "name": "Torneo Anual Amateur",
+    "club": "CB29",
+    "startDate": "2038-08-26 00:45:00",
+    "places": 438
+  },
+  {
+    "name": "Cl\u00e1sico Elite",
+    "club": "AM92",
+    "startDate": "2045-02-19 20:23:00",
+    "places": 356
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "AM09",
+    "startDate": "2035-07-08 23:26:00",
+    "places": 122
+  },
+  {
+    "name": "Torneo Anual Elite",
+    "club": "AMJ1",
+    "startDate": "2045-03-29 01:14:00",
+    "places": 265
+  },
+  {
+    "name": "Grand Prix Amateur",
+    "club": "BP59",
+    "startDate": "2035-11-21 05:20:00",
+    "places": 257
+  },
+  {
+    "name": "Masters Elite",
+    "club": "CB91",
+    "startDate": "2044-02-10 01:22:00",
+    "places": 415
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "BP14",
+    "startDate": "2043-05-17 18:18:00",
+    "places": 358
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "CB29",
+    "startDate": "2036-04-09 16:51:00",
+    "places": 388
+  },
+  {
+    "name": "Cl\u00e1sico Junior",
+    "club": "CB66",
+    "startDate": "2038-08-01 05:43:00",
+    "places": 378
+  },
+  {
+    "name": "Open de Verano",
+    "club": "AMJ1",
+    "startDate": "2039-10-01 10:52:00",
+    "places": 391
+  },
+  {
+    "name": "Open Senior",
+    "club": "AMG3",
+    "startDate": "2037-02-04 23:30:00",
+    "places": 384
+  },
+  {
+    "name": "Pro-Am Nacional",
+    "club": "AM09",
+    "startDate": "2042-05-04 05:46:00",
+    "places": 100
+  },
+  {
+    "name": "Cup de Oto\u00f1o",
+    "club": "AM70",
+    "startDate": "2045-04-10 00:49:00",
+    "places": 242
+  },
+  {
+    "name": "Championship Junior",
+    "club": "BP14",
+    "startDate": "2039-05-26 13:26:00",
+    "places": 490
+  },
+  {
+    "name": "Challenge de Verano",
+    "club": "CM29",
+    "startDate": "2040-12-17 03:52:00",
+    "places": 186
+  },
+  {
+    "name": "Invitational Junior",
+    "club": "AM70",
+    "startDate": "2038-04-03 20:19:00",
+    "places": 146
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "CB62",
+    "startDate": "2040-05-31 20:04:00",
+    "places": 334
+  },
+  {
+    "name": "Torneo Anual Nacional",
+    "club": "AMG3",
+    "startDate": "2040-01-04 14:24:00",
+    "places": 237
+  },
+  {
+    "name": "Challenge de Oto\u00f1o",
+    "club": "CB66",
+    "startDate": "2039-07-06 18:28:00",
+    "places": 128
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "CB66",
+    "startDate": "2043-09-17 07:07:00",
+    "places": 495
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "AMJ1",
+    "startDate": "2037-03-13 05:19:00",
+    "places": 495
+  },
+  {
+    "name": "Championship Regional",
+    "club": "CB00",
+    "startDate": "2043-06-03 03:42:00",
+    "places": 444
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "AM09",
+    "startDate": "2040-07-19 02:27:00",
+    "places": 131
+  },
+  {
+    "name": "Grand Prix Senior",
+    "club": "CB38",
+    "startDate": "2042-05-04 12:46:00",
+    "places": 149
+  },
+  {
+    "name": "Cup Senior",
+    "club": "CM29",
+    "startDate": "2044-05-25 00:17:00",
+    "places": 389
+  },
+  {
+    "name": "Pro-Am Senior",
+    "club": "CB62",
+    "startDate": "2041-04-28 00:46:00",
+    "places": 398
+  },
+  {
+    "name": "Cl\u00e1sico de Primavera",
+    "club": "CM29",
+    "startDate": "2043-10-24 17:01:00",
+    "places": 225
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "CB91",
+    "startDate": "2043-06-07 20:32:00",
+    "places": 300
+  },
+  {
+    "name": "Invitational Regional",
+    "club": "BP16",
+    "startDate": "2037-10-13 09:10:00",
+    "places": 157
+  },
+  {
+    "name": "Cup Regional",
+    "club": "CB96",
+    "startDate": "2035-06-17 00:52:00",
+    "places": 466
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "CB96",
+    "startDate": "2042-06-28 19:15:00",
+    "places": 402
+  },
+  {
+    "name": "Challenge Junior",
+    "club": "CB38",
+    "startDate": "2044-11-18 00:05:00",
+    "places": 251
+  },
+  {
+    "name": "Challenge Nacional",
+    "club": "CB96",
+    "startDate": "2045-08-31 08:18:00",
+    "places": 144
+  },
+  {
+    "name": "Invitational de Oto\u00f1o",
+    "club": "CB00",
+    "startDate": "2035-11-11 02:50:00",
+    "places": 269
+  },
+  {
+    "name": "Pro-Am Regional",
+    "club": "CB29",
+    "startDate": "2045-11-15 12:19:00",
+    "places": 364
+  },
+  {
+    "name": "Championship Regional",
+    "club": "AM09",
+    "startDate": "2040-06-14 15:15:00",
+    "places": 483
+  },
+  {
+    "name": "Invitational Junior",
+    "club": "AMG3",
+    "startDate": "2042-06-01 01:42:00",
+    "places": 375
+  },
+  {
+    "name": "Torneo Anual Junior",
+    "club": "CB29",
+    "startDate": "2041-05-15 08:08:00",
+    "places": 207
+  },
+  {
+    "name": "Torneo Anual Nacional",
+    "club": "AM11",
+    "startDate": "2036-05-31 19:00:00",
+    "places": 220
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "BP16",
+    "startDate": "2041-11-14 20:57:00",
+    "places": 462
+  },
+  {
+    "name": "Championship de Primavera",
+    "club": "CB96",
+    "startDate": "2037-05-09 07:47:00",
+    "places": 195
+  },
+  {
+    "name": "Masters de Verano",
+    "club": "CM29",
+    "startDate": "2045-07-23 20:07:00",
+    "places": 188
+  },
+  {
+    "name": "Grand Prix Regional",
+    "club": "AMG3",
+    "startDate": "2042-08-22 11:24:00",
+    "places": 422
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "AMG4",
+    "startDate": "2037-10-08 14:10:00",
+    "places": 390
+  },
+  {
+    "name": "Cup Senior",
+    "club": "CB91",
+    "startDate": "2036-11-03 17:47:00",
+    "places": 121
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "CB38",
+    "startDate": "2040-09-21 09:27:00",
+    "places": 462
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "CB30",
+    "startDate": "2041-07-04 22:19:00",
+    "places": 314
+  },
+  {
+    "name": "Grand Prix Senior",
+    "club": "AM11",
+    "startDate": "2037-06-20 09:55:00",
+    "places": 404
+  },
+  {
+    "name": "Pro-Am Nacional",
+    "club": "CB91",
+    "startDate": "2038-08-29 18:58:00",
+    "places": 173
+  },
+  {
+    "name": "Invitational Regional",
+    "club": "AMG4",
+    "startDate": "2038-04-08 04:36:00",
+    "places": 253
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "AM92",
+    "startDate": "2036-03-07 15:26:00",
+    "places": 379
+  },
+  {
+    "name": "Pro-Am Regional",
+    "club": "BP14",
+    "startDate": "2044-11-25 07:21:00",
+    "places": 493
+  },
+  {
+    "name": "Cl\u00e1sico de Primavera",
+    "club": "CB91",
+    "startDate": "2040-08-22 12:21:00",
+    "places": 198
+  },
+  {
+    "name": "Championship Nacional",
+    "club": "CB62",
+    "startDate": "2045-01-10 05:28:00",
+    "places": 165
+  },
+  {
+    "name": "Grand Prix de Verano",
+    "club": "CB30",
+    "startDate": "2035-08-10 17:53:00",
+    "places": 456
+  },
+  {
+    "name": "Challenge Junior",
+    "club": "BP14",
+    "startDate": "2039-10-28 16:10:00",
+    "places": 284
+  },
+  {
+    "name": "Masters Elite",
+    "club": "CBB5",
+    "startDate": "2035-01-16 12:21:00",
+    "places": 162
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "AM09",
+    "startDate": "2040-01-22 22:47:00",
+    "places": 108
+  },
+  {
+    "name": "Challenge de Oto\u00f1o",
+    "club": "BP16",
+    "startDate": "2037-03-05 02:02:00",
+    "places": 462
+  },
+  {
+    "name": "Masters Amateur",
+    "club": "CB38",
+    "startDate": "2036-05-02 12:49:00",
+    "places": 471
+  },
+  {
+    "name": "Pro-Am Elite",
+    "club": "CB91",
+    "startDate": "2037-02-14 03:15:00",
+    "places": 483
+  },
+  {
+    "name": "Cup Regional",
+    "club": "CB96",
+    "startDate": "2042-12-30 10:11:00",
+    "places": 327
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB38",
+    "startDate": "2036-06-19 03:31:00",
+    "places": 161
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "CB38",
+    "startDate": "2045-04-06 00:03:00",
+    "places": 219
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "CM29",
+    "startDate": "2041-11-13 13:57:00",
+    "places": 428
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "BP16",
+    "startDate": "2037-07-29 05:19:00",
+    "places": 278
+  },
+  {
+    "name": "Pro-Am de Primavera",
+    "club": "CB38",
+    "startDate": "2042-11-27 00:22:00",
+    "places": 360
+  },
+  {
+    "name": "Challenge Elite",
+    "club": "AM11",
+    "startDate": "2044-07-04 12:44:00",
+    "places": 499
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "CB66",
+    "startDate": "2038-01-23 07:03:00",
+    "places": 228
+  },
+  {
+    "name": "Cup de Oto\u00f1o",
+    "club": "AM11",
+    "startDate": "2040-01-31 05:33:00",
+    "places": 134
+  },
+  {
+    "name": "Championship Regional",
+    "club": "CB66",
+    "startDate": "2036-09-09 19:17:00",
+    "places": 448
+  },
+  {
+    "name": "Grand Prix Senior",
+    "club": "CB62",
+    "startDate": "2037-11-06 11:14:00",
+    "places": 467
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "CB96",
+    "startDate": "2038-12-16 22:44:00",
+    "places": 484
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "AM92",
+    "startDate": "2040-09-18 01:13:00",
+    "places": 449
+  },
+  {
+    "name": "Championship de Invierno",
+    "club": "CB00",
+    "startDate": "2038-06-04 16:48:00",
+    "places": 190
+  },
+  {
+    "name": "Masters Junior",
+    "club": "AM70",
+    "startDate": "2040-08-15 06:52:00",
+    "places": 248
+  },
+  {
+    "name": "Challenge Regional",
+    "club": "AMG4",
+    "startDate": "2041-11-11 16:56:00",
+    "places": 356
+  },
+  {
+    "name": "Open de Oto\u00f1o",
+    "club": "CB00",
+    "startDate": "2041-07-24 17:56:00",
+    "places": 468
+  },
+  {
+    "name": "Invitational Junior",
+    "club": "AM70",
+    "startDate": "2042-05-22 01:28:00",
+    "places": 124
+  },
+  {
+    "name": "Open Regional",
+    "club": "CB96",
+    "startDate": "2044-09-02 12:28:00",
+    "places": 366
+  },
+  {
+    "name": "Championship de Primavera",
+    "club": "CB62",
+    "startDate": "2036-09-15 02:23:00",
+    "places": 339
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "BP16",
+    "startDate": "2037-06-13 02:30:00",
+    "places": 386
+  },
+  {
+    "name": "Cup Senior",
+    "club": "CB96",
+    "startDate": "2036-12-17 06:58:00",
+    "places": 263
+  },
+  {
+    "name": "Invitational de Verano",
+    "club": "CB96",
+    "startDate": "2041-07-28 21:54:00",
+    "places": 402
+  },
+  {
+    "name": "Masters Elite",
+    "club": "CB38",
+    "startDate": "2038-10-06 12:03:00",
+    "places": 104
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "CM29",
+    "startDate": "2037-11-07 16:49:00",
+    "places": 165
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "AMG4",
+    "startDate": "2040-04-19 14:54:00",
+    "places": 174
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "BP14",
+    "startDate": "2037-06-20 08:12:00",
+    "places": 204
+  },
+  {
+    "name": "Championship de Primavera",
+    "club": "AMJ1",
+    "startDate": "2044-10-26 15:38:00",
+    "places": 259
+  },
+  {
+    "name": "Open de Primavera",
+    "club": "BP14",
+    "startDate": "2038-06-27 15:58:00",
+    "places": 466
+  },
+  {
+    "name": "Torneo Anual de Verano",
+    "club": "CB96",
+    "startDate": "2036-04-17 19:35:00",
+    "places": 454
+  },
+  {
+    "name": "Invitational de Oto\u00f1o",
+    "club": "AMG4",
+    "startDate": "2035-01-28 03:59:00",
+    "places": 171
+  },
+  {
+    "name": "Open Regional",
+    "club": "BP14",
+    "startDate": "2043-03-08 06:36:00",
+    "places": 256
+  },
+  {
+    "name": "Grand Prix Junior",
+    "club": "CB62",
+    "startDate": "2042-07-13 02:04:00",
+    "places": 125
+  },
+  {
+    "name": "Torneo Anual Regional",
+    "club": "CB66",
+    "startDate": "2043-01-20 17:01:00",
+    "places": 134
+  },
+  {
+    "name": "Championship Elite",
+    "club": "BP59",
+    "startDate": "2039-03-14 01:55:00",
+    "places": 483
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "AMJ1",
+    "startDate": "2042-08-08 01:43:00",
+    "places": 290
+  },
+  {
+    "name": "Challenge Elite",
+    "club": "CB38",
+    "startDate": "2040-08-07 06:03:00",
+    "places": 277
+  },
+  {
+    "name": "Torneo Anual de Invierno",
+    "club": "CB38",
+    "startDate": "2042-06-13 06:07:00",
+    "places": 347
+  },
+  {
+    "name": "Cl\u00e1sico Junior",
+    "club": "CB30",
+    "startDate": "2039-02-23 21:23:00",
+    "places": 460
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "CB38",
+    "startDate": "2038-11-20 15:20:00",
+    "places": 468
+  },
+  {
+    "name": "Torneo Anual de Verano",
+    "club": "AM92",
+    "startDate": "2037-05-17 04:07:00",
+    "places": 353
+  },
+  {
+    "name": "Invitational Nacional",
+    "club": "BP16",
+    "startDate": "2041-04-12 01:05:00",
+    "places": 305
+  },
+  {
+    "name": "Cl\u00e1sico Amateur",
+    "club": "CB96",
+    "startDate": "2043-04-08 14:48:00",
+    "places": 441
+  },
+  {
+    "name": "Cl\u00e1sico Regional",
+    "club": "CB30",
+    "startDate": "2040-07-19 23:34:00",
+    "places": 130
+  },
+  {
+    "name": "Open de Invierno",
+    "club": "BP59",
+    "startDate": "2041-03-06 06:55:00",
+    "places": 468
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "CM29",
+    "startDate": "2041-03-06 03:11:00",
+    "places": 235
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "CB96",
+    "startDate": "2036-12-29 23:07:00",
+    "places": 460
+  },
+  {
+    "name": "Open Amateur",
+    "club": "CB30",
+    "startDate": "2035-03-02 01:52:00",
+    "places": 383
+  },
+  {
+    "name": "Torneo Anual Amateur",
+    "club": "CM29",
+    "startDate": "2042-10-19 23:44:00",
+    "places": 415
+  },
+  {
+    "name": "Cl\u00e1sico Regional",
+    "club": "AMJ1",
+    "startDate": "2044-12-18 15:48:00",
+    "places": 483
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "AM09",
+    "startDate": "2043-09-28 13:54:00",
+    "places": 138
+  },
+  {
+    "name": "Cl\u00e1sico de Primavera",
+    "club": "CB38",
+    "startDate": "2036-12-01 04:56:00",
+    "places": 156
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "AM09",
+    "startDate": "2045-05-10 13:38:00",
+    "places": 100
+  },
+  {
+    "name": "Pro-Am Regional",
+    "club": "AMG3",
+    "startDate": "2043-11-17 21:43:00",
+    "places": 170
+  },
+  {
+    "name": "Challenge de Verano",
+    "club": "CB00",
+    "startDate": "2040-04-11 23:19:00",
+    "places": 376
+  },
+  {
+    "name": "Challenge Nacional",
+    "club": "CB62",
+    "startDate": "2045-02-11 10:10:00",
+    "places": 193
+  },
+  {
+    "name": "Pro-Am Senior",
+    "club": "CB96",
+    "startDate": "2040-06-18 00:18:00",
+    "places": 113
+  },
+  {
+    "name": "Championship Junior",
+    "club": "AMJ1",
+    "startDate": "2043-10-30 10:46:00",
+    "places": 292
+  },
+  {
+    "name": "Pro-Am Amateur",
+    "club": "AMG3",
+    "startDate": "2041-04-28 06:37:00",
+    "places": 452
+  },
+  {
+    "name": "Open Junior",
+    "club": "BP59",
+    "startDate": "2041-06-15 12:06:00",
+    "places": 132
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "CB30",
+    "startDate": "2044-06-11 09:49:00",
+    "places": 365
+  },
+  {
+    "name": "Cl\u00e1sico Regional",
+    "club": "CB91",
+    "startDate": "2040-10-16 02:35:00",
+    "places": 214
+  },
+  {
+    "name": "Pro-Am Junior",
+    "club": "CB30",
+    "startDate": "2042-05-03 22:54:00",
+    "places": 184
+  },
+  {
+    "name": "Masters de Primavera",
+    "club": "AMG3",
+    "startDate": "2045-06-08 03:50:00",
+    "places": 460
+  },
+  {
+    "name": "Torneo Anual Nacional",
+    "club": "BP14",
+    "startDate": "2039-09-11 19:39:00",
+    "places": 448
+  },
+  {
+    "name": "Grand Prix Regional",
+    "club": "CB29",
+    "startDate": "2036-10-29 20:47:00",
+    "places": 173
+  },
+  {
+    "name": "Masters Nacional",
+    "club": "CB66",
+    "startDate": "2043-10-19 08:41:00",
+    "places": 271
+  },
+  {
+    "name": "Challenge Regional",
+    "club": "BP14",
+    "startDate": "2043-09-24 08:20:00",
+    "places": 391
+  },
+  {
+    "name": "Challenge Elite",
+    "club": "CB30",
+    "startDate": "2045-12-26 22:58:00",
+    "places": 424
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "CM29",
+    "startDate": "2041-10-07 22:40:00",
+    "places": 180
+  },
+  {
+    "name": "Masters de Primavera",
+    "club": "BP16",
+    "startDate": "2042-05-23 12:41:00",
+    "places": 303
+  },
+  {
+    "name": "Cl\u00e1sico Senior",
+    "club": "CB38",
+    "startDate": "2042-08-13 12:57:00",
+    "places": 186
+  },
+  {
+    "name": "Invitational Nacional",
+    "club": "CM29",
+    "startDate": "2039-11-03 06:41:00",
+    "places": 476
+  },
+  {
+    "name": "Grand Prix Amateur",
+    "club": "CB96",
+    "startDate": "2043-03-16 05:22:00",
+    "places": 192
+  },
+  {
+    "name": "Challenge Nacional",
+    "club": "AM70",
+    "startDate": "2036-01-19 03:55:00",
+    "places": 240
+  },
+  {
+    "name": "Championship Senior",
+    "club": "BP14",
+    "startDate": "2045-10-07 02:19:00",
+    "places": 349
+  },
+  {
+    "name": "Challenge Junior",
+    "club": "CB96",
+    "startDate": "2036-04-27 01:23:00",
+    "places": 165
+  },
+  {
+    "name": "Torneo Anual de Primavera",
+    "club": "CB66",
+    "startDate": "2036-04-14 17:05:00",
+    "places": 328
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "CB00",
+    "startDate": "2040-09-10 11:10:00",
+    "places": 184
+  },
+  {
+    "name": "Open de Verano",
+    "club": "CB38",
+    "startDate": "2041-12-10 14:30:00",
+    "places": 234
+  },
+  {
+    "name": "Cup Regional",
+    "club": "CB62",
+    "startDate": "2035-11-22 22:04:00",
+    "places": 447
+  },
+  {
+    "name": "Invitational Junior",
+    "club": "CB38",
+    "startDate": "2040-09-01 08:49:00",
+    "places": 123
+  },
+  {
+    "name": "Challenge Amateur",
+    "club": "AM92",
+    "startDate": "2039-12-29 15:50:00",
+    "places": 456
+  },
+  {
+    "name": "Pro-Am Regional",
+    "club": "AMG4",
+    "startDate": "2037-11-29 09:53:00",
+    "places": 224
+  },
+  {
+    "name": "Cl\u00e1sico Junior",
+    "club": "CB96",
+    "startDate": "2042-01-26 16:09:00",
+    "places": 194
+  },
+  {
+    "name": "Cl\u00e1sico Junior",
+    "club": "BP59",
+    "startDate": "2037-06-28 12:30:00",
+    "places": 307
+  },
+  {
+    "name": "Grand Prix Amateur",
+    "club": "AM70",
+    "startDate": "2035-10-15 14:57:00",
+    "places": 387
+  },
+  {
+    "name": "Cup Senior",
+    "club": "AM70",
+    "startDate": "2042-08-12 02:27:00",
+    "places": 143
+  },
+  {
+    "name": "Grand Prix de Verano",
+    "club": "BP16",
+    "startDate": "2036-04-12 00:20:00",
+    "places": 389
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "CB30",
+    "startDate": "2039-03-20 08:34:00",
+    "places": 166
+  },
+  {
+    "name": "Masters Nacional",
+    "club": "CB38",
+    "startDate": "2045-03-20 14:46:00",
+    "places": 268
+  },
+  {
+    "name": "Invitational Junior",
+    "club": "CB38",
+    "startDate": "2040-07-12 16:58:00",
+    "places": 110
+  },
+  {
+    "name": "Invitational Nacional",
+    "club": "CBB5",
+    "startDate": "2036-10-29 13:41:00",
+    "places": 347
+  },
+  {
+    "name": "Challenge de Verano",
+    "club": "AMG4",
+    "startDate": "2042-10-30 09:32:00",
+    "places": 468
+  },
+  {
+    "name": "Masters de Oto\u00f1o",
+    "club": "BP16",
+    "startDate": "2040-03-26 19:04:00",
+    "places": 448
+  },
+  {
+    "name": "Masters de Oto\u00f1o",
+    "club": "CB38",
+    "startDate": "2039-10-20 02:33:00",
+    "places": 172
+  },
+  {
+    "name": "Masters Elite",
+    "club": "CB62",
+    "startDate": "2045-06-12 22:24:00",
+    "places": 485
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "AM92",
+    "startDate": "2042-07-17 15:18:00",
+    "places": 146
+  },
+  {
+    "name": "Torneo Anual de Invierno",
+    "club": "AMG3",
+    "startDate": "2043-11-02 23:05:00",
+    "places": 377
+  },
+  {
+    "name": "Pro-Am de Verano",
+    "club": "CB62",
+    "startDate": "2038-12-29 02:50:00",
+    "places": 459
+  },
+  {
+    "name": "Invitational de Verano",
+    "club": "BP16",
+    "startDate": "2037-08-10 12:31:00",
+    "places": 454
+  },
+  {
+    "name": "Pro-Am Nacional",
+    "club": "AMJ1",
+    "startDate": "2037-04-07 02:29:00",
+    "places": 296
+  },
+  {
+    "name": "Invitational de Verano",
+    "club": "CB91",
+    "startDate": "2043-03-10 08:39:00",
+    "places": 365
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "BP16",
+    "startDate": "2040-11-14 05:16:00",
+    "places": 178
+  },
+  {
+    "name": "Grand Prix Nacional",
+    "club": "AM11",
+    "startDate": "2045-07-13 22:17:00",
+    "places": 364
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "AM70",
+    "startDate": "2035-11-17 17:45:00",
+    "places": 119
+  },
+  {
+    "name": "Torneo Anual de Invierno",
+    "club": "CB00",
+    "startDate": "2044-04-15 07:03:00",
+    "places": 456
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "CB96",
+    "startDate": "2035-07-05 22:19:00",
+    "places": 163
+  },
+  {
+    "name": "Open de Verano",
+    "club": "CM29",
+    "startDate": "2035-10-23 23:05:00",
+    "places": 410
+  },
+  {
+    "name": "Grand Prix Nacional",
+    "club": "AMG4",
+    "startDate": "2039-07-22 22:57:00",
+    "places": 264
+  },
+  {
+    "name": "Masters Junior",
+    "club": "CB30",
+    "startDate": "2035-03-19 11:33:00",
+    "places": 354
+  },
+  {
+    "name": "Masters de Invierno",
+    "club": "AMG4",
+    "startDate": "2037-07-23 05:00:00",
+    "places": 108
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "AM09",
+    "startDate": "2035-04-16 07:43:00",
+    "places": 211
+  },
+  {
+    "name": "Pro-Am Amateur",
+    "club": "AM09",
+    "startDate": "2035-04-10 07:59:00",
+    "places": 477
+  },
+  {
+    "name": "Invitational Senior",
+    "club": "AM11",
+    "startDate": "2044-12-21 00:50:00",
+    "places": 118
+  },
+  {
+    "name": "Cl\u00e1sico Regional",
+    "club": "CM29",
+    "startDate": "2039-10-08 16:08:00",
+    "places": 390
+  },
+  {
+    "name": "Open de Oto\u00f1o",
+    "club": "CB91",
+    "startDate": "2035-07-16 11:29:00",
+    "places": 130
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "AMG4",
+    "startDate": "2040-07-27 10:13:00",
+    "places": 187
+  },
+  {
+    "name": "Championship Elite",
+    "club": "AMJ1",
+    "startDate": "2038-07-12 17:38:00",
+    "places": 391
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "BP16",
+    "startDate": "2044-10-14 13:42:00",
+    "places": 453
+  },
+  {
+    "name": "Cup Senior",
+    "club": "BP59",
+    "startDate": "2045-05-28 01:07:00",
+    "places": 304
+  },
+  {
+    "name": "Cl\u00e1sico Amateur",
+    "club": "AM11",
+    "startDate": "2045-08-13 16:58:00",
+    "places": 273
+  },
+  {
+    "name": "Grand Prix de Primavera",
+    "club": "AMJ1",
+    "startDate": "2041-02-17 20:03:00",
+    "places": 470
+  },
+  {
+    "name": "Torneo Anual Elite",
+    "club": "CB29",
+    "startDate": "2038-08-18 00:07:00",
+    "places": 108
+  },
+  {
+    "name": "Cl\u00e1sico de Invierno",
+    "club": "BP16",
+    "startDate": "2035-01-24 17:38:00",
+    "places": 438
+  },
+  {
+    "name": "Open Regional",
+    "club": "BP16",
+    "startDate": "2042-10-26 00:29:00",
+    "places": 447
+  },
+  {
+    "name": "Pro-Am de Invierno",
+    "club": "CM29",
+    "startDate": "2035-04-16 17:56:00",
+    "places": 171
+  },
+  {
+    "name": "Invitational Elite",
+    "club": "AMJ1",
+    "startDate": "2040-11-11 05:09:00",
+    "places": 122
+  },
+  {
+    "name": "Challenge Senior",
+    "club": "CB96",
+    "startDate": "2041-03-24 14:25:00",
+    "places": 291
+  },
+  {
+    "name": "Cup Amateur",
+    "club": "CM29",
+    "startDate": "2038-05-11 15:40:00",
+    "places": 145
+  },
+  {
+    "name": "Pro-Am Junior",
+    "club": "CBB5",
+    "startDate": "2040-09-21 12:58:00",
+    "places": 152
+  },
+  {
+    "name": "Masters Nacional",
+    "club": "AMJ1",
+    "startDate": "2038-04-09 02:36:00",
+    "places": 286
+  },
+  {
+    "name": "Cup Elite",
+    "club": "AMJ1",
+    "startDate": "2044-11-06 06:37:00",
+    "places": 164
+  },
+  {
+    "name": "Open Elite",
+    "club": "AMJ1",
+    "startDate": "2043-06-27 21:41:00",
+    "places": 337
+  },
+  {
+    "name": "Championship Regional",
+    "club": "CB96",
+    "startDate": "2042-11-26 08:13:00",
+    "places": 328
+  },
+  {
+    "name": "Cup de Invierno",
+    "club": "CM29",
+    "startDate": "2041-09-22 08:50:00",
+    "places": 173
+  },
+  {
+    "name": "Torneo Anual de Verano",
+    "club": "AMJ1",
+    "startDate": "2042-04-07 09:00:00",
+    "places": 134
+  },
+  {
+    "name": "Pro-Am Regional",
+    "club": "CM29",
+    "startDate": "2035-11-06 22:09:00",
+    "places": 331
+  },
+  {
+    "name": "Pro-Am de Oto\u00f1o",
+    "club": "CB96",
+    "startDate": "2042-02-17 11:44:00",
+    "places": 200
+  },
+  {
+    "name": "Cl\u00e1sico de Oto\u00f1o",
+    "club": "BP59",
+    "startDate": "2035-11-04 03:03:00",
+    "places": 242
+  },
+  {
+    "name": "Championship Senior",
+    "club": "CB96",
+    "startDate": "2042-12-02 03:38:00",
+    "places": 246
+  },
+  {
+    "name": "Pro-Am Elite",
+    "club": "CB30",
+    "startDate": "2036-09-10 12:45:00",
+    "places": 338
+  },
+  {
+    "name": "Cup Regional",
+    "club": "BP59",
+    "startDate": "2041-02-12 00:06:00",
+    "places": 289
+  },
+  {
+    "name": "Cup de Verano",
+    "club": "AM92",
+    "startDate": "2037-10-05 00:01:00",
+    "places": 199
+  },
+  {
+    "name": "Cl\u00e1sico Amateur",
+    "club": "AMG4",
+    "startDate": "2038-12-30 09:18:00",
+    "places": 247
+  },
+  {
+    "name": "Cup Nacional",
+    "club": "AMG3",
+    "startDate": "2038-01-04 04:04:00",
+    "places": 226
+  },
+  {
+    "name": "Invitational de Primavera",
+    "club": "CB91",
+    "startDate": "2045-12-15 08:04:00",
+    "places": 255
+  },
+  {
+    "name": "Cl\u00e1sico Regional",
+    "club": "BP14",
+    "startDate": "2038-05-31 10:04:00",
+    "places": 343
+  },
+  {
+    "name": "Torneo Anual Senior",
+    "club": "CB96",
+    "startDate": "2037-10-29 09:16:00",
+    "places": 200
+  },
+  {
+    "name": "Invitational de Invierno",
+    "club": "BP59",
+    "startDate": "2038-06-02 06:44:00",
+    "places": 227
+  },
+  {
+    "name": "Challenge de Primavera",
+    "club": "CB62",
+    "startDate": "2039-01-16 20:42:00",
+    "places": 179
+  },
+  {
+    "name": "Challenge de Invierno",
+    "club": "AM92",
+    "startDate": "2039-11-19 21:08:00",
+    "places": 399
+  },
+  {
+    "name": "Championship Junior",
+    "club": "CB62",
+    "startDate": "2042-07-02 08:45:00",
+    "places": 329
+  },
+  {
+    "name": "Masters de Invierno",
+    "club": "CB91",
+    "startDate": "2038-04-17 12:07:00",
+    "places": 488
+  },
+  {
+    "name": "Cl\u00e1sico Nacional",
+    "club": "CB38",
+    "startDate": "2037-03-20 17:15:00",
+    "places": 346
+  },
+  {
+    "name": "Cl\u00e1sico de Verano",
+    "club": "AM11",
+    "startDate": "2039-03-22 19:07:00",
+    "places": 145
+  },
+  {
+    "name": "Grand Prix Amateur",
+    "club": "CB66",
+    "startDate": "2036-08-14 05:03:00",
+    "places": 266
+  }
+]
