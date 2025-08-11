@@ -83,7 +83,7 @@ La tarea principal consiste en crear una API, idealmente con PHP y Symfony, que 
 - Un jugador no podrá inscribirse en una competición si no está federado.
 - La inscripción sólo se realizará si hay plazas disponibles.
 - Cuando un usuario se inscriba a una competición, se debe sumar esa inscripción al contador `numRegistrations`, que contiene el número de jugadores inscritos.
-- Hay acciones que puede hacer un jugador directamente en la Federación sin pasar por nuestra aplicación (por ejemplo, que el jugador llame por teléfono a la Federación y realice dicho trámite).  
+- Hay acciones que puede hacer un jugador directamente en la Federación sin pasar por nuestra aplicación (por ejemplo, imagina que el jugador llame por teléfono a la Federación y realice dicho trámite).  
   Las únicas posibles acciones son:
     - Darse de baja: el jugador deja de estar federado (`active = 0`).
     - Cambiar de club.
@@ -94,9 +94,12 @@ La tarea principal consiste en crear una API, idealmente con PHP y Symfony, que 
 
 Entrega el proyecto de la manera que creas más conveniente, teniendo en cuenta que tenemos que ser capaces de poder montarlo y usarlo de una forma sencilla. Necesitamos ver y analizar tanto el código como el funcionamiento real.
 
+Documenta las decisiones y mejoras realizadas en el proyecto y envíalas en el email de respuesta.
+
+Si consideras que hay algo que mejorarías y no has llegado a aplicar por falta de tiempo o cualquier otro motivo, coméntalo en el email de respuesta.
+
 ---
 
 ## Dudas
 
-Cualquier duda técnica sobre la prueba puedes comentarla directamente con:  
-`juan.cabrera@slope.es`
+Cualquier duda técnica sobre la prueba puedes comentarla directamente con: `juan.cabrera@slope.es`
