@@ -1,0 +1,17 @@
+services:   
+    # PHP FPM server.
+    php:
+        image: php:8.1.8-fpm
+        container_name: tt_php
+        build:
+            context: .
+            target: php
+        security_opt:
+            - label:disable
+        volumes:
+            - ./:/usr/share/nginx/html
+            - ./docker/php/php-fpm.conf:/usr/local/etc/php-fpm.conf
+            - ./docker/php/php.ini:/usr/local/etc/php/conf.d/php.ini
+            - ./docker/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+        environment:
+            TZ: Europe/Madrid
