@@ -2,18 +2,25 @@
 
 namespace App\Aggregate\Club\Domain;
 
-use App\Aggregate\Club\Domain\ValueObject\ClubCode;
+use App\Aggregate\Player\Domain\Player;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
+use App\Aggregate\Club\Domain\ValueObject\ClubCode;
 use App\Aggregate\Club\Domain\ValueObject\ClubName;
 
 final class Club
 {
+    /** @var Player[] $players */
+    private array $players = [];
+    /** @var Competition[] $competitions */
+    private array $competitions = [];
+
     private function __construct(
         private readonly ClubId $id,
         private readonly ClubCode $clubCode,
         private readonly ClubName $name,
     ) {
-
+        $this->players = [];
+        $this->competitions = [];
     }
 
     public static function create(
@@ -38,4 +45,17 @@ final class Club
     {
         return $this->name;
     }
+
+    /** @return Player[] */
+    public function players(): array
+    {
+        return $this->players;
+    }
+
+    /** @return Competition[] */
+    public function competitions(): array
+    {
+        return $this->competitions;
+    }
 }
+

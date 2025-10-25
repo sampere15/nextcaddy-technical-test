@@ -4,13 +4,13 @@ namespace App\Shared\Domain\ValueObject;
 
 use App\Shared\Domain\ValueObject\BaseValueObject;
 
-abstract class BooleanValueObject extends BaseValueObject
+abstract class IntValueObject extends BaseValueObject
 {
-    public function __construct(protected bool $value)
+    protected function __construct(protected int $value) 
     {
     }
 
-    public function value(): bool
+    public function value(): int
     {
         return $this->value;
     }
