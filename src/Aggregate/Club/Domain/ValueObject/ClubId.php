@@ -6,5 +6,4 @@ use App\Shared\Domain\ValueObject\Uuid;
 
 class ClubId extends Uuid
 {
-
 }

@@ -4,6 +4,7 @@ namespace App\Aggregate\Competition\Domain;
 
 use App\Aggregate\Player\Domain\Player;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
+use App\Aggregate\Competition\Domain\ValueObject\CompetitionId;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionName;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionMaxPlayers;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionStartDateTime;
@@ -15,6 +16,7 @@ final class Competition
     private array $players = [];
 
     private function __construct(
+        private readonly CompetitionId $id,
         private readonly CompetitionName $name,
         private readonly ClubId $clubId,
         private readonly CompetitionStartDateTime $startDateTime,
@@ -22,12 +24,14 @@ final class Competition
     ) {}
 
     public static function create(
+        CompetitionId $id,
         CompetitionName $name,
         ClubId $clubId,
         CompetitionStartDateTime $startDateTime,
         CompetitionMaxPlayers $maxPlayers,
     ): self {
         return new self(
+            $id,
             $name,
             $clubId,
             $startDateTime,

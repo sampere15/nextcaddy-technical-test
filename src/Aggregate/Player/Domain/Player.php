@@ -4,15 +4,17 @@ namespace App\Aggregate\Player\Domain;
 
 use App\Shared\Domain\ValueObject\Gender;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
-use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
+use App\Aggregate\Player\Domain\ValueObject\PlayerId;
 use App\Aggregate\Player\Domain\ValueObject\PlayerActive;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSurname;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
 
 final class Player
 {
     private function __construct(
+        private readonly PlayerId $id,
         private readonly PlayerFederationCode $federatedCode,
         private readonly ClubId $clubId,
         private readonly PlayerFirstName $name,
@@ -24,6 +26,7 @@ final class Player
     }
 
     public static function create(
+        PlayerId $id,
         PlayerFederationCode $federatedCode,
         ClubId $clubId,
         PlayerFirstName $name,
@@ -33,6 +36,7 @@ final class Player
         PlayerActive $active,
     ): self {
         return new self(
+            $id,
             $federatedCode,
             $clubId,
             $name,
