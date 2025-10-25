@@ -47,28 +47,15 @@ final class PlayerMother
         $faker = FakerProvider::getFaker();
 
         return self::create(
-            null,
-            new PlayerFederationCode($faker->regexify('[0-9]{6}')),
-            null,
-            null,
-            null,
-            null,
-            null,
-            new PlayerActive(true),
+            federatedCode: PlayerFederationCodeMother::create(),
+            active: new PlayerActive(true),
         );
     }
 
     public static function inactive(): Player 
     {
         return self::create(
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            new PlayerActive(false),
+            active: new PlayerActive(false),
         );
     }
 

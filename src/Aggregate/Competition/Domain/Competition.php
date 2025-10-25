@@ -13,7 +13,7 @@ use App\Aggregate\Competition\Domain\ValueObject\CompetitionStartDateTime;
 use App\Aggregate\Competition\Domain\Exception\MaxPlayersExceededException;
 use App\Aggregate\Competition\Domain\Exception\PlayerAlreadyRegisteredInCompetitionException;
 
-final class Competition
+class Competition
 {
     /** @var Player[] $players */
     private array $players = [];

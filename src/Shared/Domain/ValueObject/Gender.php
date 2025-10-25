@@ -30,4 +30,13 @@ enum Gender: string
             self::FEMALE => 'F',
         };
     }
+
+    public static function fromShortCode(string $shortCode): self
+    {
+        return match (strtoupper($shortCode)) {
+            'F' => self::MALE,
+            'M' => self::FEMALE,
+            default => throw new GenderEnumException("Invalid gender short code: $shortCode"),
+        };
+    }
 }

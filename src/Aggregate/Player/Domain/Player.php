@@ -6,6 +6,7 @@ use App\Shared\Domain\ValueObject\Gender;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
 use App\Aggregate\Player\Domain\ValueObject\PlayerId;
 use App\Aggregate\Player\Domain\ValueObject\PlayerActive;
+use App\Aggregate\Player\Domain\ValueObject\PlayerSynced;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSurname;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
@@ -22,6 +23,7 @@ final class Player
         private readonly Gender $gender,
         private readonly PlayerBirthdate $birthdate,
         private PlayerActive $active,
+        private PlayerSynced $synced,
     ) {
     }
 
@@ -34,6 +36,7 @@ final class Player
         Gender $gender,
         PlayerBirthdate $birthdate,
         PlayerActive $active,
+        PlayerSynced $synced = new PlayerSynced(true),
     ): self {
         return new self(
             $id,
@@ -44,6 +47,7 @@ final class Player
             $gender,
             $birthdate,
             $active,
+            $synced,
         );
     }
 
@@ -85,5 +89,25 @@ final class Player
     public function active(): PlayerActive
     {
         return $this->active;
+    }
+
+    public function updateActiveStatus(PlayerActive $active): void
+    {
+        $this->active = $active;
+    }
+
+    public function updateClubId(ClubId $clubId): void
+    {
+        $this->clubId = $clubId;
+    }
+
+    public function markAsUnsynced(): void
+    {
+        $this->synced = new PlayerSynced(false);
+    }
+
+    public function isSynced(): bool
+    {
+        return $this->synced->value();
     }
 }

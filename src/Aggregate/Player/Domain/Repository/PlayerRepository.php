@@ -3,6 +3,7 @@
 namespace App\Aggregate\Player\Domain\Repository;
 
 use App\Aggregate\Player\Domain\Player;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
 use App\Aggregate\Player\Domain\ValueObject\PlayerId;
 
 interface PlayerRepository
@@ -13,4 +14,6 @@ interface PlayerRepository
 
     /** @return Player[] */
     public function all(): array;
+
+    public function findByFederationCode(PlayerFederationCode $federationCode): ?Player;
 }
