@@ -14,6 +14,8 @@ ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/do
 RUN chmod +x /usr/local/bin/install-php-extensions
 
 # Install PHP extensions.
-RUN docker-php-ext-install pdo pdo_pgsql pgsql bcmath sockets
+RUN docker-php-ext-install pdo pdo_pgsql pgsql bcmath sockets pdo_mysql
 RUN install-php-extensions amqp
 RUN install-php-extensions redis
+RUN install-php-extensions http
+RUN docker-php-ext-enable xdebug
