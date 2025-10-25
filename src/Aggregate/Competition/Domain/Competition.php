@@ -6,8 +6,11 @@ use App\Aggregate\Player\Domain\Player;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionId;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionName;
+use App\Aggregate\Player\Domain\Exception\PlayerNotActiveException;
+use App\Aggregate\Player\Domain\Exception\PlayerNotFederatedException;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionMaxPlayers;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionStartDateTime;
+use App\Aggregate\Competition\Domain\Exception\MaxPlayersExceededException;
 use App\Aggregate\Competition\Domain\Exception\PlayerAlreadyRegisteredInCompetitionException;
 
 final class Competition
@@ -45,19 +48,54 @@ final class Competition
         return $this->players;
     }
 
-    public function addPlayer(Player $player): void
+    public function registerPlayer(Player $player): void
     {
-        $this->checkPlayerNotRegistered($player);
+        // Player must be active
+        if (false === $player->active()->value()) {
+            throw new PlayerNotActiveException($player);
+        }
+
+        // Player must have a federated code
+        if (null === $player->federatedCode()) {
+            throw new PlayerNotFederatedException($player);
+        }
+
+        // Check if player is already registered
+        if ($this->isPlayerRegistered($player)) {
+            throw new PlayerAlreadyRegisteredInCompetitionException($player);
+        }
+
+        // Check if competition is full
+        $this->checkIfCompetitionIsFull();
 
         $this->players[] = $player;
     }
 
-    private function checkPlayerNotRegistered(Player $player): void
+    public function isPlayerRegistered(Player $player): bool
     {
         foreach ($this->players as $registeredPlayer) {
             if ($registeredPlayer->federatedCode()->value() === $player->federatedCode()->value()) {
-                throw new PlayerAlreadyRegisteredInCompetitionException($player);
+                return true;
             }
         }
+
+        return false;
+    }
+
+    public function numberOfRegisteredPlayers(): int
+    {
+        return count($this->players);
+    }
+
+    private function checkIfCompetitionIsFull(): void
+    {
+        if ($this->numberOfRegisteredPlayers() >= $this->maxPlayers->value()) {
+            throw new MaxPlayersExceededException($this->maxPlayers->value());
+        }
+    }
+
+    public function id(): CompetitionId
+    {
+        return $this->id;
     }
 }

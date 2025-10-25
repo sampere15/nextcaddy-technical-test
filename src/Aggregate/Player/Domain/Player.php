@@ -15,19 +15,19 @@ final class Player
 {
     private function __construct(
         private readonly PlayerId $id,
-        private readonly PlayerFederationCode $federatedCode,
-        private readonly ClubId $clubId,
+        private readonly ?PlayerFederationCode $federatedCode,
+        private ClubId $clubId,
         private readonly PlayerFirstName $name,
         private readonly PlayerSurname $surname,
         private readonly Gender $gender,
         private readonly PlayerBirthdate $birthdate,
-        private readonly PlayerActive $active,
+        private PlayerActive $active,
     ) {
     }
 
     public static function create(
         PlayerId $id,
-        PlayerFederationCode $federatedCode,
+        ?PlayerFederationCode $federatedCode,
         ClubId $clubId,
         PlayerFirstName $name,
         PlayerSurname $surname,
@@ -47,7 +47,12 @@ final class Player
         );
     }
 
-    public function federatedCode(): PlayerFederationCode
+    public function id(): PlayerId
+    {
+        return $this->id;
+    }
+
+    public function federatedCode(): ?PlayerFederationCode
     {
         return $this->federatedCode;
     }
