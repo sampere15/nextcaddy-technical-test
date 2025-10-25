@@ -1,4 +1,5 @@
 <?php
+
 namespace Aggregate\Club\Domain\ValueObject;
 
 use App\Aggregate\Club\Domain\Exception\ClubCodeFormatException;
@@ -7,6 +8,11 @@ use App\Tests\Shared\Domain\ValueObject\StringValueObjectTest;
 
 final class ClubCodeTest extends StringValueObjectTest
 {
+    protected function getValidValue(): string
+    {
+        return 'AB12';
+    }
+
     protected function getValueObjectClass(): string
     {
         return ClubCode::class;

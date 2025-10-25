@@ -7,6 +7,11 @@ use App\Tests\Shared\Domain\ValueObject\StringValueObjectTest;
 
 final class ClubNameTest extends StringValueObjectTest
 {
+    protected function getValidValue(): string
+    {
+        return 'Real Club';
+    }
+
     protected function getValueObjectClass(): string
     {
         return ClubName::class;

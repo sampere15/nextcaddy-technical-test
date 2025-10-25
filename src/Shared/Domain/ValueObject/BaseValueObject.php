@@ -2,7 +2,9 @@
 
 namespace App\Shared\Domain\ValueObject;
 
-abstract class BaseValueObject
+use Stringable;
+
+abstract class BaseValueObject implements Stringable
 {
     /**
      * Devuelve el valor primitivo del objeto
@@ -10,4 +12,9 @@ abstract class BaseValueObject
      * @return mixed
      */
     abstract public function value(): mixed;
+
+    public function __toString(): string
+    {
+        return (string) $this->value();
+    }
 }

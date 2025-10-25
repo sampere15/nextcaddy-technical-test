@@ -6,9 +6,10 @@ use App\Shared\Domain\Exception\EmptyStringException;
 
 abstract class StringValueObject extends BaseValueObject
 {
-    public function __construct(protected readonly string $value)
+    public function __construct(protected string $value)
     {
         $this->assertNotEmpty($value);
+        $this->value = trim($value);
     }
 
     /**

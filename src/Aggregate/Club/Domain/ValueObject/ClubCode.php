@@ -7,11 +7,11 @@ use App\Shared\Domain\ValueObject\StringValueObject;
 
 class ClubCode extends StringValueObject
 {
-    public function __construct(string $value)
+    public function __construct(protected string $value)
     {
         parent::__construct($value);
 
-        $this->assertFormat($value);
+        $this->assertFormat($this->value);
     }
 
     /**
