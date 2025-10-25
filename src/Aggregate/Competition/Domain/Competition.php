@@ -11,6 +11,7 @@ use App\Aggregate\Player\Domain\Exception\PlayerNotFederatedException;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionMaxPlayers;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionStartDateTime;
 use App\Aggregate\Competition\Domain\Exception\MaxPlayersExceededException;
+use App\Aggregate\Competition\Domain\Exception\PlayerClubDontMatchCompetitionClubException;
 use App\Aggregate\Competition\Domain\Exception\PlayerAlreadyRegisteredInCompetitionException;
 
 class Competition
@@ -65,6 +66,11 @@ class Competition
             throw new PlayerAlreadyRegisteredInCompetitionException($player);
         }
 
+        // Check player's club matches competition's club
+        if ($player->clubId()->value() !== $this->clubId->value()) {
+            throw new PlayerClubDontMatchCompetitionClubException($player, $this);
+        }
+
         // Check if competition is full
         $this->checkIfCompetitionIsFull();
 
@@ -97,5 +103,10 @@ class Competition
     public function id(): CompetitionId
     {
         return $this->id;
+    }
+
+    public function clubId(): ClubId
+    {
+        return $this->clubId;
     }
 }

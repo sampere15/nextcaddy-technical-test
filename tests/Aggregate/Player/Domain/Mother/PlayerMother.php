@@ -42,13 +42,16 @@ final class PlayerMother
         );
     }
 
-    public static function activeAndFederated(): Player 
+    public static function activeAndFederated(
+        ?ClubId $clubId = null,
+    ): Player 
     {
         $faker = FakerProvider::getFaker();
 
         return self::create(
             federatedCode: PlayerFederationCodeMother::create(),
             active: new PlayerActive(true),
+            clubId: $clubId,
         );
     }
 
