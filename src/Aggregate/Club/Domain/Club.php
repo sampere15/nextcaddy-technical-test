@@ -6,8 +6,9 @@ use App\Aggregate\Player\Domain\Player;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
 use App\Aggregate\Club\Domain\ValueObject\ClubCode;
 use App\Aggregate\Club\Domain\ValueObject\ClubName;
+use App\Shared\Domain\Event\AggregateRoot;
 
-final class Club
+final class Club extends AggregateRoot
 {
     /** @var Player[] $players */
     private array $players = [];
@@ -56,6 +57,15 @@ final class Club
     public function competitions(): array
     {
         return $this->competitions;
+    }
+
+    public function jsonSerialize(): array
+    {
+        return [
+            'id' => $this->id->value(),
+            'club_code' => $this->clubCode->value(),
+            'name' => $this->name->value(),
+        ];
     }
 }
 

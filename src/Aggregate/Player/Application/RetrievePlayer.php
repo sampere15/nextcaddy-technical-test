@@ -3,15 +3,12 @@
 namespace App\Aggregate\Player\Application;
 
 use App\Aggregate\Player\Domain\Player;
-use App\Aggregate\Club\Domain\ValueObject\ClubCode;
-use App\Aggregate\Player\Domain\ValueObject\PlayerId;
-use App\Aggregate\Club\Domain\Repository\ClubRepository;
+use App\Aggregate\Player\Domain\DTO\PlayerUpdaterDTO;
+use App\Aggregate\Player\Domain\ValueObject\PlayerSynced;
 use App\Aggregate\Player\Domain\Repository\PlayerRepository;
 use App\Aggregate\Player\Application\Sync\PlayerSyncContract;
-use App\Aggregate\Club\Domain\Exception\ClubNotFoundException;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
 use App\Aggregate\Player\Application\Exception\RetrievePlayerException;
-use App\Shared\Infrastructure\Uuid\UuidProvider;
 
 /**
  * Caso de uso que orquesta la recuperación de un Player desde la federación, actualiza los datos si es necesario
@@ -22,13 +19,13 @@ class RetrievePlayer
     public function __construct(
         private readonly PlayerRepository $playerRepository,
         private readonly PlayerSyncContract $playerSyncContract,
-        private readonly ClubRepository $clubRepository,
+        private readonly PlayerCreator $playerCreator,
+        private readonly PlayerUpdater $playerUpdater,
     ) {}
 
-    public function __invoke(PlayerFederationCode $code): Player 
+    public function __invoke(PlayerFederationCode $code): Player
     {
         $federationData = null;
-        $hasChanges = false;
 
         // Busca el jugador en el repositorio local
         $player = $this->playerRepository->findByFederationCode($code);
@@ -40,55 +37,37 @@ class RetrievePlayer
             // Indicamos que el juegador no se ha podido sincronizar con los datos de la federación
             if (null !== $player) {
                 $player->markAsUnsynced();
-                $hasChanges = true;
+                $this->playerRepository->save($player);
             }
         }
 
-        if (null === $player && null !== $federationData) {
-            // Si no existe y hemos recuparado datos de la federación, lo creamos
-            // Buscamos el club asociado al jugador
-            $club = $this->clubRepository->findByCode(new ClubCode($federationData->clubCode)) ?? throw new ClubNotFoundException(new ClubCode($federationData->clubCode));
+        // Si no existe en local y no hemos podido recuperar datos de la federación, lanzamos excepción
+        if (null === $player && null === $federationData) {
+            throw new RetrievePlayerException("Player with federation code {$code->value()} not found.");
+        }
 
-            $player = Player::create(
-                new PlayerId(UuidProvider::generate()),
+        if (null === $player && null !== $federationData) {
+            // Si no existe y hemos recuparado datos de la federación, creamos el player
+            $player = $this->playerCreator->__invoke(
+                $federationData->clubCode,
                 $federationData->federatedCode,
-                $club->id(),
                 $federationData->firstName,
                 $federationData->surname,
                 $federationData->gender,
                 $federationData->birthdate,
                 $federationData->active,
+                new PlayerSynced(true)
             );
-
-            $hasChanges = true;
         } elseif (null !== $player && null !== $federationData) {
-            // Si existe, actualizamos sus datos si han cambiado
-            $hasChanges = false;
-            // Recuperamos el club actual del jugador para poder comprobar si ha cambiado
-            $playerCurrentyClub = $this->clubRepository->findById($player->clubId()) ?? throw new ClubNotFoundException($player->clubId());
-
-            // Si ha cambiado el status
-            if ($player->active()->value() !== $federationData->active->value()) {
-                $player->updateActiveStatus($federationData->active);
-                $hasChanges = true;
-            }
-
-            // Si ha cambiado el club
-            if ($playerCurrentyClub->code()->value() !== $federationData->clubCode->value()) {
-                // Buscamos el nuevo club por código y actualizamos
-                $newClub = $this->clubRepository->findByCode(new ClubCode($federationData->clubCode)) ?? throw new ClubNotFoundException($player->clubId());
-                $player->updateClubId($newClub->id());
-                $hasChanges = true;
-            }
-        } elseif (null === $player && null === $federationData) {
-            throw new RetrievePlayerException("Player with federation code {$code->value()} not found.");
+            // Si existe y hemos recuperado datos de la federación, llamamos al updater para actualizar si es necesario
+            $player = $this->playerUpdater->__invoke(
+                $player->id(),
+                new PlayerUpdaterDTO(
+                    clubCode: $federationData->clubCode,
+                    active: $federationData->active,
+                )
+            );
         }
-
-        if ($hasChanges) {
-            $this->playerRepository->save($player);
-        }
-
-        // TODO: quizás guardar el usuario en cache
 
         return $player;
     }

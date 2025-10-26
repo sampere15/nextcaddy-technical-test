@@ -2,22 +2,25 @@
 
 namespace App\Tests\Aggregate\Competition\Application;
 
+use App\Aggregate\Player\Domain\Player;
 use PHPUnit\Framework\MockObject\MockObject;
+use App\Aggregate\Competition\Domain\Competition;
 use App\Aggregate\Player\Application\RetrievePlayer;
 use App\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
 use App\Aggregate\Competition\Domain\Repository\CompetitionRepository;
 use App\Tests\Aggregate\Competition\Domain\Mother\CompetitionIdMother;
+use App\Aggregate\Player\Application\Exception\RetrievePlayerException;
 use App\Tests\Aggregate\Player\Domain\Mother\PlayerFederationCodeMother;
 use App\Aggregate\Competition\Domain\Exception\CompetitionNotFoundException;
 use App\Aggregate\Competition\Application\RegisterPlayerToCompetition\RegisterPlayerToCompetitionCommand;
 use App\Aggregate\Competition\Application\RegisterPlayerToCompetition\RegisterPlayerToCompetitionHandler;
-use App\Aggregate\Competition\Domain\Competition;
-use App\Aggregate\Player\Application\Exception\RetrievePlayerException;
+use App\Shared\Domain\Event\EventBus;
 
 class RegisterPlayerToCompetitionTest extends UnitTestCase
 {
     private readonly CompetitionRepository|MockObject $competitionRepository;
     private readonly RetrievePlayer|MockObject $retrievePlayer;
+    private readonly EventBus|MockObject $eventBus;
     private readonly RegisterPlayerToCompetitionHandler $registerPlayerToCompetition;
 
     protected function setUp(): void
@@ -28,10 +31,13 @@ class RegisterPlayerToCompetitionTest extends UnitTestCase
         $this->competitionRepository = $this->createMock(CompetitionRepository::class);
         /** @var RetrievePlayer $retrievePlayer */
         $this->retrievePlayer = $this->createMock(RetrievePlayer::class);
+        /** @var EventBus $eventBus */
+        $this->eventBus = $this->createMock(EventBus::class);
 
         $this->registerPlayerToCompetition = new RegisterPlayerToCompetitionHandler(
             $this->competitionRepository,
             $this->retrievePlayer,
+            $this->eventBus
         );
     }
 
@@ -80,6 +86,30 @@ class RegisterPlayerToCompetitionTest extends UnitTestCase
 
     public function test_should_register_player_to_competition(): void
     {
-        $this->markTestIncomplete('Faltaría completar este test una vez implementada la emisión del evento.');
+        $command = new RegisterPlayerToCompetitionCommand(
+            competitionId: CompetitionIdMother::create(),
+            playerFederation: PlayerFederationCodeMother::create(),
+        );
+
+        // Mockeamos la competición para luego comprobar que se llama a registerPlayer
+        $competition = $this->createMock(Competition::class);
+
+        $this->competitionRepository
+            ->method('findById')
+            ->willReturn($competition);
+
+        // Mockeamos el jugador que se va a recuperar
+        $player = $this->createMock(Player::class);
+
+        $this->retrievePlayer
+            ->method('__invoke')
+            ->willReturn($player);
+
+        // Comprobamos que se llama a registerPlayer con el jugador recuperado
+        $competition->expects($this->once())
+            ->method('registerPlayer')
+            ->with($player);
+
+        $this->registerPlayerToCompetition->__invoke($command);
     }
 }

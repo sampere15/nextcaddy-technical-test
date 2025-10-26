@@ -3,18 +3,20 @@
 namespace App\Aggregate\Competition\Domain;
 
 use App\Aggregate\Player\Domain\Player;
+use App\Shared\Domain\Event\AggregateRoot;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionId;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionName;
 use App\Aggregate\Player\Domain\Exception\PlayerNotActiveException;
 use App\Aggregate\Player\Domain\Exception\PlayerNotFederatedException;
+use App\Aggregate\Competition\Domain\Event\CompetitionPlayerRegistered;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionMaxPlayers;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionStartDateTime;
 use App\Aggregate\Competition\Domain\Exception\MaxPlayersExceededException;
 use App\Aggregate\Competition\Domain\Exception\PlayerClubDontMatchCompetitionClubException;
 use App\Aggregate\Competition\Domain\Exception\PlayerAlreadyRegisteredInCompetitionException;
 
-class Competition
+class Competition extends AggregateRoot
 {
     /** @var Player[] $players */
     private array $players = [];
@@ -67,7 +69,7 @@ class Competition
         }
 
         // Check player's club matches competition's club
-        if ($player->clubId()->value() !== $this->clubId->value()) {
+        if ($player->clubId()->value() !== $this->clubId()->value()) {
             throw new PlayerClubDontMatchCompetitionClubException($player, $this);
         }
 
@@ -75,6 +77,8 @@ class Competition
         $this->checkIfCompetitionIsFull();
 
         $this->players[] = $player;
+
+        $this->record(new CompetitionPlayerRegistered($this->id, $player->id()));
     }
 
     public function isPlayerRegistered(Player $player): bool
@@ -108,5 +112,27 @@ class Competition
     public function clubId(): ClubId
     {
         return $this->clubId;
+    }
+
+    public function jsonSerialize(bool $includePlayers = false): array
+    {
+        $data = [
+            'id' => $this->id->value(),
+            'name' => $this->name->value(),
+            'club_id' => $this->clubId->value(),
+            'start_datetime' => $this->startDateTime->value()->format('Y-m-d H:i:s'),
+            'max_players' => $this->maxPlayers->value(),
+            'registered_players' => $this->numberOfRegisteredPlayers(),
+        ];
+
+        // Si se ha solicitado incluir la información de los jugadores inscritos
+        if ($includePlayers) {
+            $data['players'] = array_map(
+                fn (Player $player) => $player->jsonSerialize(),
+                $this->players
+            );
+        }
+
+        return $data;
     }
 }

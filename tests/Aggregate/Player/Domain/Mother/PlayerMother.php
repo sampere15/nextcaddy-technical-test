@@ -2,26 +2,25 @@
 
 namespace App\Tests\Aggregate\Player\Domain\Mother;
 
+use App\Aggregate\Club\Domain\ValueObject\ClubId;
 use App\Aggregate\Player\Domain\Player;
-
 use App\Shared\Domain\ValueObject\Gender;
 use App\Tests\Shared\Domain\Util\FakerProvider;
-use App\Aggregate\Club\Domain\ValueObject\ClubId;
+use App\Tests\Shared\Domain\Mother\GenderMother;
 use App\Aggregate\Player\Domain\ValueObject\PlayerId;
-use App\Tests\Aggregate\Club\Domain\Mother\ClubIdMother;
 use App\Aggregate\Player\Domain\ValueObject\PlayerActive;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSurname;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
-use App\Tests\Shared\Domain\Mother\GenderMother;
+use App\Tests\Aggregate\Club\Domain\Mother\ClubIdMother;
 
 final class PlayerMother
 {
     public static function create(
         ?PlayerId $id = null,
-        ?PlayerFederationCode $federatedCode = null,
         ?ClubId $clubId = null,
+        ?PlayerFederationCode $federatedCode = null,
         ?PlayerFirstName $name = null,
         ?PlayerSurname $surname = null,
         ?Gender $gender = null,
@@ -32,8 +31,8 @@ final class PlayerMother
 
         return Player::create(
             $id ?? new PlayerId($faker->uuid()),
-            $federatedCode ?? new PlayerFederationCode($faker->regexify('[0-9]{6}')),
             $clubId ?? ClubIdMother::create(),
+            $federatedCode ?? new PlayerFederationCode($faker->regexify('[0-9]{6}')),
             $name ?? new PlayerFirstName($faker->firstName()),
             $surname ?? new PlayerSurname($faker->lastName()),
             $gender ?? GenderMother::create(),
@@ -44,14 +43,14 @@ final class PlayerMother
 
     public static function activeAndFederated(
         ?ClubId $clubId = null,
-    ): Player 
+    ): Player
     {
         $faker = FakerProvider::getFaker();
 
         return self::create(
+            clubId: $clubId,
             federatedCode: PlayerFederationCodeMother::create(),
             active: new PlayerActive(true),
-            clubId: $clubId,
         );
     }
 
@@ -68,8 +67,8 @@ final class PlayerMother
 
         return Player::create(
             $id ?? new PlayerId($faker->uuid()),
-            null,
             $clubId ?? ClubIdMother::create(),
+            PlayerFederationCodeMother::create(),
             $name ?? new PlayerFirstName($faker->firstName()),
             $surname ?? new PlayerSurname($faker->lastName()),
             $gender ?? GenderMother::create(),

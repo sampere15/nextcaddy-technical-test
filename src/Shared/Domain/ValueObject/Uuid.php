@@ -4,7 +4,7 @@ namespace App\Shared\Domain\ValueObject;
 
 use App\Shared\Domain\Exception\UuidInvalidException;
 
-abstract class Uuid
+abstract class Uuid extends BaseValueObject
 {
     public const TAM = 36;
 

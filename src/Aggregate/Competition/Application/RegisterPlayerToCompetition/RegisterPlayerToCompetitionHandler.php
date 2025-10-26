@@ -5,12 +5,14 @@ namespace App\Aggregate\Competition\Application\RegisterPlayerToCompetition;
 use App\Aggregate\Competition\Domain\Exception\CompetitionNotFoundException;
 use App\Aggregate\Competition\Domain\Repository\CompetitionRepository;
 use App\Aggregate\Player\Application\RetrievePlayer;
+use App\Shared\Domain\Event\EventBus;
 
 final class RegisterPlayerToCompetitionHandler
 {
     public function __construct(
         private readonly CompetitionRepository $competitionRepository,
         private readonly RetrievePlayer $retrievePlayer,
+        private readonly EventBus $eventBus,
     ) {}
 
     public function __invoke(RegisterPlayerToCompetitionCommand $command): void
@@ -28,6 +30,6 @@ final class RegisterPlayerToCompetitionHandler
 
         $this->competitionRepository->save($competition);
 
-        // TODO: Registrar/emitir evento
+        $this->eventBus->publish(...$competition->pullDomainEvents());
     }
 }
