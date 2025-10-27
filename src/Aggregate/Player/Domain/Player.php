@@ -6,6 +6,7 @@ use App\Shared\Domain\ValueObject\Gender;
 use App\Shared\Domain\Event\AggregateRoot;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
 use App\Aggregate\Competition\Domain\Competition;
+use App\Aggregate\Player\Domain\Event\PlayerClubChanged;
 use App\Shared\Domain\ValueObject\BaseValueObject;
 use App\Aggregate\Player\Domain\Event\PlayerCreated;
 use App\Aggregate\Player\Domain\Event\PlayerUpdated;
@@ -129,12 +130,16 @@ class Player extends AggregateRoot
             return;
         }
 
+        $oldClubId = $this->clubId;
+
         $this->updatedFields['clubId'] = [
-            'old' => $this->clubId->value(),
+            'old' => $oldClubId->value(),
             'new' => $clubId->value(),
         ];
 
         $this->clubId = $clubId;
+        
+        $this->record(new PlayerClubChanged($this->id(), $oldClubId, $clubId));
     }
 
     public function update(BaseValueObject ...$valueObjects): void
@@ -158,6 +163,11 @@ class Player extends AggregateRoot
     public function markAsUnsynced(): void
     {
         $this->synced = new PlayerSynced(false);
+    }
+
+    public function markAsSynced(): void
+    {
+        $this->synced = new PlayerSynced(true);
     }
 
     public function isSynced(): PlayerSynced

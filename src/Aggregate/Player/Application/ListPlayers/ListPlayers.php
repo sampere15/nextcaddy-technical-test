@@ -15,6 +15,12 @@ class ListPlayers
      */
     public function __invoke(): array
     {
+        /**
+         * Aquí podríamos primero atacar a un caché para evitar ir siempre a la base de datos en caso de que los datos.
+         * Como tenemos un evento de "PlayerCreated" y otro de "PlayerUpdated", el listado de jugadores en caché se podría
+         * actualizar cada vez que se publique uno de esos eventos.
+         */
+
         $players = $this->playerRepository->findAll();
 
         return array_map(fn($player) => new PlayerListItemResponse(

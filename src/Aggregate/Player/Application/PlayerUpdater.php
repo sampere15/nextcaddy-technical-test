@@ -32,6 +32,10 @@ class PlayerUpdater
             $dto->active,
         );
 
+        $player->markAsSynced();
+
+        $this->playerRepository->save($player);
+
         $this->eventBus->publish(...$player->pullDomainEvents());
 
         return $player;

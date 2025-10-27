@@ -16,4 +16,7 @@ interface PlayerRepository
     public function findAll(): array;
 
     public function findByFederationCode(PlayerFederatedCode $federationCode): ?Player;
+
+    /** @return Player[] */
+    public function findAllUnsyncedPlayers(): array;
 }

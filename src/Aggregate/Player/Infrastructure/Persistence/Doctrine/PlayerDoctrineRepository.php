@@ -33,4 +33,10 @@ class PlayerDoctrineRepository implements PlayerRepository
     {
         return $this->em->getRepository(Player::class)->findOneBy(['federationCode' => $federationCode->value()]);
     }
+
+    /** @return Player[] */
+    public function findAllUnsyncedPlayers(): array
+    {
+        return $this->em->getRepository(Player::class)->findBy(['synced' => false]);
+    }
 }
