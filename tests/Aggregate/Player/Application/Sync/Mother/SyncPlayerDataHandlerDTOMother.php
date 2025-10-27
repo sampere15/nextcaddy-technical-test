@@ -8,7 +8,7 @@ use App\Aggregate\Player\Domain\ValueObject\PlayerActive;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSurname;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
-use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFederatedCode;
 use App\Aggregate\Player\Application\Sync\SyncPlayerDataHandlerDTO;
 use App\Tests\Aggregate\Club\Domain\Mother\ClubCodeMother;
 use App\Tests\Aggregate\Player\Domain\Mother\PlayerFederationCodeMother;
@@ -18,7 +18,7 @@ use App\Tests\Shared\Domain\Util\FakerProvider;
 final class SyncPlayerDataHandlerDTOMother
 {
     public static function create(
-        ?PlayerFederationCode $federatedCode = null,
+        ?PlayerFederatedCode $federatedCode = null,
         ?ClubCode $clubCode = null,
         ?PlayerSurname $surname = null,
         ?PlayerFirstName $firstName = null,

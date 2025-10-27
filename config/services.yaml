@@ -22,3 +22,10 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    # Inversión de dependencias
+    App\Aggregate\Club\Domain\Repository\ClubRepository: '@App\Aggregate\Club\Infrastructure\Persistence\Doctrine\ClubDoctrineRepository'
+    App\Aggregate\Player\Domain\Repository\PlayerRepository: '@App\Aggregate\Player\Infrastructure\Persistence\Doctrine\PlayerDoctrineRepository'
+    # App\Aggregate\Competition\Domain\Repository\CompetitionRepository: '@App\Aggregate\Competition\Infrastructure\Persistence\Doctrine\CompetitionDoctrineRepository'
+
+    App\Aggregate\Player\Application\Sync\PlayerSyncContract: '@App\Aggregate\Player\Infrastructure\Sync\FederationApiPlayerSyncService'

@@ -1,0 +1,268 @@
+{
+    "players": [
+        {
+            "federatedCode": "100001",
+            "clubCode": "CB29",
+            "name": "IGLESIAS PEREZ, CARLA",
+            "surname": "IGLESIAS PEREZ",
+            "firstName": "CARLA",
+            "fullName": "CARLA IGLESIAS PEREZ",
+            "gender": "F",
+            "birthdate": "1974-04-07",
+            "active": 1
+        },
+        {
+            "federatedCode": "100002",
+            "clubCode": "CB29",
+            "name": "MARTIN MORALES, CARLA",
+            "surname": "MARTIN MORALES",
+            "firstName": "CARLA",
+            "fullName": "CARLA MARTIN MORALES",
+            "gender": "F",
+            "birthdate": "1991-02-08",
+            "active": 1
+        },
+        {
+            "federatedCode": "100003",
+            "clubCode": "CB29",
+            "name": "NAVARRO LOPEZ, MARIO",
+            "surname": "NAVARRO LOPEZ",
+            "firstName": "MARIO",
+            "fullName": "MARIO NAVARRO LOPEZ",
+            "gender": "M",
+            "birthdate": "2004-03-28",
+            "active": 1
+        },
+        {
+            "federatedCode": "100004",
+            "clubCode": "CB29",
+            "name": "TORRES PEREZ, JAVIER",
+            "surname": "TORRES PEREZ",
+            "firstName": "JAVIER",
+            "fullName": "JAVIER TORRES PEREZ",
+            "gender": "M",
+            "birthdate": "1955-04-25",
+            "active": 1
+        },
+        {
+            "federatedCode": "100005",
+            "clubCode": "CB29",
+            "name": "FERNANDEZ GUTIERREZ, HUGO",
+            "surname": "FERNANDEZ GUTIERREZ",
+            "firstName": "HUGO",
+            "fullName": "HUGO FERNANDEZ GUTIERREZ",
+            "gender": "M",
+            "birthdate": "1963-09-13",
+            "active": 0
+        },
+        {
+            "federatedCode": "100006",
+            "clubCode": "CB29",
+            "name": "GUTIERREZ FERNANDEZ, ALVARO",
+            "surname": "GUTIERREZ FERNANDEZ",
+            "firstName": "ALVARO",
+            "fullName": "ALVARO GUTIERREZ FERNANDEZ",
+            "gender": "M",
+            "birthdate": "1991-06-13",
+            "active": 1
+        },
+        {
+            "federatedCode": "100007",
+            "clubCode": "CB29",
+            "name": "DIAZ GUTIERREZ, ANA",
+            "surname": "DIAZ GUTIERREZ",
+            "firstName": "ANA",
+            "fullName": "ANA DIAZ GUTIERREZ",
+            "gender": "F",
+            "birthdate": "1990-08-06",
+            "active": 1
+        },
+        {
+            "federatedCode": "100008",
+            "clubCode": "CB29",
+            "name": "FERNANDEZ PEREZ, CARLA",
+            "surname": "FERNANDEZ PEREZ",
+            "firstName": "CARLA",
+            "fullName": "CARLA FERNANDEZ PEREZ",
+            "gender": "F",
+            "birthdate": "1940-06-05",
+            "active": 1
+        },
+        {
+            "federatedCode": "100009",
+            "clubCode": "CB29",
+            "name": "NAVARRO GONZALEZ, ELENA",
+            "surname": "NAVARRO GONZALEZ",
+            "firstName": "ELENA",
+            "fullName": "ELENA NAVARRO GONZALEZ",
+            "gender": "F",
+            "birthdate": "2008-03-02",
+            "active": 1
+        },
+        {
+            "federatedCode": "100010",
+            "clubCode": "CB29",
+            "name": "RAMIREZ DIAZ, CARLA",
+            "surname": "RAMIREZ DIAZ",
+            "firstName": "CARLA",
+            "fullName": "CARLA RAMIREZ DIAZ",
+            "gender": "F",
+            "birthdate": "1947-04-13",
+            "active": 0
+        },
+        {
+            "federatedCode": "100011",
+            "clubCode": "CB29",
+            "name": "RAMIREZ RODRIGUEZ, MARTA",
+            "surname": "RAMIREZ RODRIGUEZ",
+            "firstName": "MARTA",
+            "fullName": "MARTA RAMIREZ RODRIGUEZ",
+            "gender": "F",
+            "birthdate": "1968-09-04",
+            "active": 1
+        },
+        {
+            "federatedCode": "100012",
+            "clubCode": "CB29",
+            "name": "PEREZ IGLESIAS, DIEGO",
+            "surname": "PEREZ IGLESIAS",
+            "firstName": "DIEGO",
+            "fullName": "DIEGO PEREZ IGLESIAS",
+            "gender": "M",
+            "birthdate": "1969-07-16",
+            "active": 1
+        },
+        {
+            "federatedCode": "100013",
+            "clubCode": "CB29",
+            "name": "NAVARRO RAMIREZ, ALVARO",
+            "surname": "NAVARRO RAMIREZ",
+            "firstName": "ALVARO",
+            "fullName": "ALVARO NAVARRO RAMIREZ",
+            "gender": "M",
+            "birthdate": "1938-12-24",
+            "active": 0
+        },
+        {
+            "federatedCode": "100014",
+            "clubCode": "CB29",
+            "name": "MORALES RODRIGUEZ, ANA",
+            "surname": "MORALES RODRIGUEZ",
+            "firstName": "ANA",
+            "fullName": "ANA MORALES RODRIGUEZ",
+            "gender": "F",
+            "birthdate": "1978-11-10",
+            "active": 1
+        },
+        {
+            "federatedCode": "100015",
+            "clubCode": "CB29",
+            "name": "NAVARRO LOPEZ, MARIO",
+            "surname": "NAVARRO LOPEZ",
+            "firstName": "MARIO",
+            "fullName": "MARIO NAVARRO LOPEZ",
+            "gender": "M",
+            "birthdate": "2004-03-28",
+            "active": 1
+        },
+        {
+            "federatedCode": "100016",
+            "clubCode": "CB29",
+            "name": "FERNANDEZ MORALES, MARTA",
+            "surname": "FERNANDEZ MORALES",
+            "firstName": "MARTA",
+            "fullName": "MARTA FERNANDEZ MORALES",
+            "gender": "F",
+            "birthdate": "1963-10-02",
+            "active": 1
+        },
+        {
+            "federatedCode": "100017",
+            "clubCode": "CB29",
+            "name": "MORALES NAVARRO, MARIO",
+            "surname": "MORALES NAVARRO",
+            "firstName": "MARIO",
+            "fullName": "MARIO MORALES NAVARRO",
+            "gender": "M",
+            "birthdate": "2010-06-08",
+            "active": 1
+        },
+        {
+            "federatedCode": "100018",
+            "clubCode": "CB29",
+            "name": "MARTIN GUTIERREZ, ANA",
+            "surname": "MARTIN GUTIERREZ",
+            "firstName": "ANA",
+            "fullName": "ANA MARTIN GUTIERREZ",
+            "gender": "F",
+            "birthdate": "1996-09-15",
+            "active": 1
+        },
+        {
+            "federatedCode": "100019",
+            "clubCode": "CB29",
+            "name": "DIAZ NAVARRO, MARIO",
+            "surname": "DIAZ NAVARRO",
+            "firstName": "MARIO",
+            "fullName": "MARIO DIAZ NAVARRO",
+            "gender": "M",
+            "birthdate": "1972-07-19",
+            "active": 0
+        },
+        {
+            "federatedCode": "100020",
+            "clubCode": "CB29",
+            "name": "IGLESIAS FERNANDEZ, DIEGO",
+            "surname": "IGLESIAS FERNANDEZ",
+            "firstName": "DIEGO",
+            "fullName": "DIEGO IGLESIAS FERNANDEZ",
+            "gender": "M",
+            "birthdate": "1992-01-20",
+            "active": 1
+        },
+        {
+            "federatedCode": "100021",
+            "clubCode": "CB29",
+            "name": "TORRES MARTIN, MARIO",
+            "surname": "TORRES MARTIN",
+            "firstName": "MARIO",
+            "fullName": "MARIO TORRES MARTIN",
+            "gender": "M",
+            "birthdate": "1998-08-21",
+            "active": 1
+        },
+        {
+            "federatedCode": "100022",
+            "clubCode": "CB29",
+            "name": "RODRIGUEZ LOPEZ, JAVIER",
+            "surname": "RODRIGUEZ LOPEZ",
+            "firstName": "JAVIER",
+            "fullName": "JAVIER RODRIGUEZ LOPEZ",
+            "gender": "M",
+            "birthdate": "2000-07-09",
+            "active": 1
+        },
+        {
+            "federatedCode": "100023",
+            "clubCode": "CB29",
+            "name": "DIAZ NAVARRO, CARLA",
+            "surname": "DIAZ NAVARRO",
+            "firstName": "CARLA",
+            "fullName": "CARLA DIAZ NAVARRO",
+            "gender": "F",
+            "birthdate": "1995-06-14",
+            "active": 1
+        },
+        {
+            "federatedCode": "100024",
+            "clubCode": "CB29",
+            "name": "MORALES NAVARRO, MARIO",
+            "surname": "MORALES NAVARRO",
+            "firstName": "MARIO",
+            "fullName": "MARIO MORALES NAVARRO",
+            "gender": "M",
+            "birthdate": "2010-06-08",
+            "active": 1
+        }
+    ]
+}

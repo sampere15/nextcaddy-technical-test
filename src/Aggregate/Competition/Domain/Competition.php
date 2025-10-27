@@ -27,7 +27,10 @@ class Competition extends AggregateRoot
         private readonly ClubId $clubId,
         private readonly CompetitionStartDateTime $startDateTime,
         private readonly CompetitionMaxPlayers $maxPlayers,
-    ) {}
+        array $players = [],
+    ) {
+        $this->players = $players;
+    }
 
     public static function create(
         CompetitionId $id,
@@ -35,6 +38,7 @@ class Competition extends AggregateRoot
         ClubId $clubId,
         CompetitionStartDateTime $startDateTime,
         CompetitionMaxPlayers $maxPlayers,
+        array $players = [],
     ): self {
         return new self(
             $id,
@@ -42,6 +46,7 @@ class Competition extends AggregateRoot
             $clubId,
             $startDateTime,
             $maxPlayers,
+            $players
         );
     }
 
@@ -112,27 +117,5 @@ class Competition extends AggregateRoot
     public function clubId(): ClubId
     {
         return $this->clubId;
-    }
-
-    public function jsonSerialize(bool $includePlayers = false): array
-    {
-        $data = [
-            'id' => $this->id->value(),
-            'name' => $this->name->value(),
-            'club_id' => $this->clubId->value(),
-            'start_datetime' => $this->startDateTime->value()->format('Y-m-d H:i:s'),
-            'max_players' => $this->maxPlayers->value(),
-            'registered_players' => $this->numberOfRegisteredPlayers(),
-        ];
-
-        // Si se ha solicitado incluir la información de los jugadores inscritos
-        if ($includePlayers) {
-            $data['players'] = array_map(
-                fn (Player $player) => $player->jsonSerialize(),
-                $this->players
-            );
-        }
-
-        return $data;
     }
 }

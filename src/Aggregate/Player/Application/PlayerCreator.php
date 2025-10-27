@@ -14,7 +14,7 @@ use App\Aggregate\Player\Domain\Repository\PlayerRepository;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
 use App\Aggregate\Club\Domain\Exception\ClubNotFoundException;
-use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFederatedCode;
 use App\Shared\Domain\Event\EventBus;
 
 class PlayerCreator
@@ -29,7 +29,7 @@ class PlayerCreator
 
     public function __invoke(
         ClubCode $clubCode,
-        PlayerFederationCode $federatedCode,
+        PlayerFederatedCode $federatedCode,
         PlayerFirstName $firstName,
         PlayerSurname $surname,
         Gender $gender,

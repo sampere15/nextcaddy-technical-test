@@ -3,14 +3,14 @@
 namespace App\Tests\Aggregate\Player\Domain\Mother;
 
 use App\Tests\Shared\Domain\Util\FakerProvider;
-use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFederatedCode;
 
 final class PlayerFederationCodeMother
 {
-    public static function create(?string $value = null): PlayerFederationCode
+    public static function create(?string $value = null): PlayerFederatedCode
     {
         $faker = FakerProvider::getFaker();
 
-        return new PlayerFederationCode($value ?? $faker->regexify('[0-9]{6}'));
+        return new PlayerFederatedCode($value ?? $faker->regexify('[0-9]{6}'));
     }
 }

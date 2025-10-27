@@ -5,7 +5,7 @@ namespace App\Aggregate\Player\Domain\ValueObject;
 use App\Aggregate\Player\Domain\Exception\InvalidPlayerFederationCodeException;
 use App\Shared\Domain\ValueObject\StringValueObject;
 
-class PlayerFederationCode extends StringValueObject
+class PlayerFederatedCode extends StringValueObject
 {
     public const TAM = 6;
 

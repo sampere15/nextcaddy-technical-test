@@ -6,6 +6,7 @@ use App\Aggregate\Club\Domain\Club;
 use App\Shared\Domain\ValueObject\Gender;
 use App\Shared\Domain\Event\AggregateRoot;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
+use App\Aggregate\Competition\Domain\Competition;
 use App\Shared\Domain\ValueObject\BaseValueObject;
 use App\Aggregate\Player\Domain\Event\PlayerCreated;
 use App\Aggregate\Player\Domain\Event\PlayerUpdated;
@@ -15,16 +16,19 @@ use App\Aggregate\Player\Domain\ValueObject\PlayerSynced;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSurname;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
-use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFederatedCode;
 
 class Player extends AggregateRoot
 {
+    /** @var Competition[] $competitions */
+    private array $competitions = [];
+
     private array $updatedFields = [];
     
     private function __construct(
         private readonly PlayerId $id,
         private ClubId $clubId,
-        private readonly ?PlayerFederationCode $federatedCode,
+        private readonly ?PlayerFederatedCode $federatedCode,
         private readonly PlayerFirstName $name,
         private readonly PlayerSurname $surname,
         private readonly Gender $gender,
@@ -39,7 +43,7 @@ class Player extends AggregateRoot
     public static function create(
         PlayerId $id,
         ClubId $clubId,
-        PlayerFederationCode $federatedCode,
+        PlayerFederatedCode $federatedCode,
         PlayerFirstName $name,
         PlayerSurname $surname,
         Gender $gender,
@@ -58,11 +62,6 @@ class Player extends AggregateRoot
             $active,
             $synced,
         );
-
-        // Registramos el evento de dominio
-        // $player->record(new PlayerCreated($player));
-
-        return $player;
     }
 
     public function id(): PlayerId
@@ -70,7 +69,7 @@ class Player extends AggregateRoot
         return $this->id;
     }
 
-    public function federatedCode(): ?PlayerFederationCode
+    public function federatedCode(): ?PlayerFederatedCode
     {
         return $this->federatedCode;
     }
@@ -133,8 +132,6 @@ class Player extends AggregateRoot
         ];
 
         $this->clubId = $clubId;
-
-        // TODO: hacemos record del evento de PlayerClubChanged
     }
 
     public function update(BaseValueObject ...$valueObjects): void
@@ -178,5 +175,11 @@ class Player extends AggregateRoot
             'active' => $this->active->value(),
             'synced' => $this->synced->value(),
         ];
+    }
+
+    /** @return Competition[] */
+    public function competitions(): array
+    {
+        return $this->competitions;
     }
 }

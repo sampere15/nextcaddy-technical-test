@@ -8,7 +8,7 @@ abstract class Uuid extends BaseValueObject
 {
     public const TAM = 36;
 
-    public function __construct(protected readonly string $value)
+    public function __construct(protected string $value)
     {
         $this->assertFormat($value);
     }

@@ -7,6 +7,7 @@ use App\Aggregate\Player\Domain\DTO\PlayerUpdaterDTO;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSynced;
 use App\Aggregate\Player\Domain\Repository\PlayerRepository;
 use App\Aggregate\Player\Application\Sync\PlayerSyncContract;
+use App\Aggregate\Club\Domain\Exception\ClubNotFoundException;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
 use App\Aggregate\Player\Application\Exception\RetrievePlayerException;
 
@@ -23,7 +24,7 @@ class RetrievePlayer
         private readonly PlayerUpdater $playerUpdater,
     ) {}
 
-    public function __invoke(PlayerFederationCode $code): Player
+    public function __invoke(PlayerFederationCode $code): Player 
     {
         $federationData = null;
 

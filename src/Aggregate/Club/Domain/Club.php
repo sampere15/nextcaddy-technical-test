@@ -17,7 +17,7 @@ final class Club extends AggregateRoot
 
     private function __construct(
         private readonly ClubId $id,
-        private readonly ClubCode $clubCode,
+        private readonly ClubCode $code,
         private readonly ClubName $name,
     ) {
         $this->players = [];
@@ -26,10 +26,10 @@ final class Club extends AggregateRoot
 
     public static function create(
         ClubId $id,
-        ClubCode $clubCode,
+        ClubCode $code,
         ClubName $name,
     ): self {
-        return new self($id, $clubCode, $name);
+        return new self($id, $code, $name);
     }
 
     public function id(): ClubId
@@ -39,7 +39,7 @@ final class Club extends AggregateRoot
 
     public function code(): ClubCode
     {
-        return $this->clubCode;
+        return $this->code;
     }
 
     public function name(): ClubName
@@ -63,7 +63,7 @@ final class Club extends AggregateRoot
     {
         return [
             'id' => $this->id->value(),
-            'club_code' => $this->clubCode->value(),
+            'club_code' => $this->code->value(),
             'name' => $this->name->value(),
         ];
     }
