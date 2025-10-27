@@ -16,6 +16,23 @@ services:
         environment:
             TZ: Europe/Madrid
             PHP_IDE_CONFIG: "serverName=host.docker.internal"
+        depends_on:
+            - db
+    # Nginx Web server
+    nginx:
+        image: nginx:1.22.0
+        container_name: tt_nginx
+        volumes:
+            - ./:/usr/share/nginx/html
+            - ./docker/nginx/site.conf:/etc/nginx/conf.d/site.conf
+        depends_on:
+            - php
+        security_opt:
+            - label:disable
+        environment:
+            TZ: "Europe/Madrid"
+        ports:
+            - "8000:80"
     db:
         image: mysql:8.0
         container_name: tt_db

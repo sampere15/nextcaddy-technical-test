@@ -3,7 +3,12 @@ status:
     controller: App\Controller\StatusController::status
     methods: GET
 
-player-list:
+player.list:
     path: /v1/players
     controller: App\Controller\Player\PlayerListController
     methods: GET
+
+competition.register_player:
+    path: /v1/competition/register-player
+    controller: App\Controller\Competition\CompetitionRegisterPlayerController
+    methods: POST

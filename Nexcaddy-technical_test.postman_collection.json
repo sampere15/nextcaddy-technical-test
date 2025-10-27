@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "0c872598-d796-422d-a73e-9ea0d0a48329",
+		"name": "Nexcaddy-technical_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8716033",
+		"_collection_link": "https://martian-star-610765.postman.co/workspace/CDV~bfbf02da-d995-46f5-8a92-32f0db88627b/collection/8716033-0c872598-d796-422d-a73e-9ea0d0a48329?action=share&source=collection_link&creator=8716033"
+	},
+	"item": [
+		{
+			"name": "status",
+			"item": [
+				{
+					"name": "status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/v1/status",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"v1",
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "player",
+			"item": [
+				{
+					"name": "player-list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/v1/players",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"v1",
+								"players"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "competition",
+			"item": [
+				{
+					"name": "register_player",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"competitionId\": \"1913a2c1-1eeb-3d8d-9b34-d79b28a92a3e\",\r\n    \"playerFederatedCode\": \"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/v1/competition/register-player",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"v1",
+								"competition",
+								"register-player"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

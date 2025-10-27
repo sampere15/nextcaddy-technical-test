@@ -29,3 +29,4 @@ services:
     # App\Aggregate\Competition\Domain\Repository\CompetitionRepository: '@App\Aggregate\Competition\Infrastructure\Persistence\Doctrine\CompetitionDoctrineRepository'
 
     App\Aggregate\Player\Application\Sync\PlayerSyncContract: '@App\Aggregate\Player\Infrastructure\Sync\FederationApiPlayerSyncService'
+    App\Shared\Domain\Event\EventBus: '@App\Shared\Infrastructure\Event\InMemory\InMemoryEventBus'

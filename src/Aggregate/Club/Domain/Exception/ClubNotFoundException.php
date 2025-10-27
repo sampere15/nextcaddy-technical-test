@@ -3,10 +3,10 @@
 namespace App\Aggregate\Club\Domain\Exception;
 
 use App\Aggregate\Club\Domain\ValueObject\ClubCode;
-use App\Shared\Domain\Exception\BaseException;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
+use App\Shared\Domain\Exception\NotFoundException;
 
-final class ClubNotFoundException extends BaseException
+final class ClubNotFoundException extends NotFoundException
 {
     public function __construct(ClubId|ClubCode $data)
     {

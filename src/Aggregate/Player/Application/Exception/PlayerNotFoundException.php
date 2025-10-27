@@ -4,8 +4,9 @@ namespace App\Aggregate\Player\Application\Exception;
 
 use App\Aggregate\Player\Domain\ValueObject\PlayerId;
 use App\Shared\Domain\Exception\BaseException;
+use App\Shared\Domain\Exception\NotFoundException;
 
-class PlayerNotFoundException extends BaseException
+class PlayerNotFoundException extends NotFoundException
 {
     public function __construct(PlayerId $playerId)
     {

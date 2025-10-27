@@ -1,0 +1,7 @@
+POST http://127.0.0.1:8000/v1/competition/register-player
+Content-Type: application/json
+
+{
+    "competitionId": "1913a2c1-1eeb-3d8d-9b34-d79b28a92a3e",
+    "playerFederatedCode": "123123"
+}
