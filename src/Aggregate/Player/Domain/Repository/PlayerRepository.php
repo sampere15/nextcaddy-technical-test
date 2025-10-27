@@ -13,7 +13,7 @@ interface PlayerRepository
     public function findById(PlayerId $playerId): ?Player;
 
     /** @return Player[] */
-    public function all(): array;
+    public function findAll(): array;
 
     public function findByFederationCode(PlayerFederatedCode $federationCode): ?Player;
 }

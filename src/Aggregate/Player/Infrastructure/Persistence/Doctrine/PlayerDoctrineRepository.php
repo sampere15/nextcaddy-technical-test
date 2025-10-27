@@ -24,7 +24,7 @@ class PlayerDoctrineRepository implements PlayerRepository
     }
 
     /** @return Player[] */
-    public function all(): array
+    public function findAll(): array
     {
         return $this->em->getRepository(Player::class)->findAll();
     }

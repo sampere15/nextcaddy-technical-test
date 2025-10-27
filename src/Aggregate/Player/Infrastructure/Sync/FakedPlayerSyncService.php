@@ -17,7 +17,7 @@ final class FakedPlayerSyncService implements PlayerSyncContract
     public function fetchPlayerData(PlayerFederatedCode $code): SyncPlayerDataHandlerDTO
     {
         // Leemos el fichero JSON que se encuentra en .rest-client/player-details/request/GET_player-details.http
-        $data = json_decode(file_get_contents('.rest-client/player-details/response/GET_player-details_response1.json'), true);
+        $data = json_decode(file_get_contents('.rest-client/external/fakefederation/player-details/response/GET_player-details_response1.json'), true);
 
         return new SyncPlayerDataHandlerDTO(
             federatedCode: new PlayerFederatedCode($data['player']['federatedCode']),
