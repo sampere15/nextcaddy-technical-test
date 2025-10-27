@@ -13,8 +13,8 @@ class Stats
     {
     }
 
-    public function increaseNumberCompetitorRegistered(): void
+    public function increaseNumberCompetitorRegistered(int $increment): void
     {
-        $this->countCompetitorsRegistered++;
+        $this->countCompetitorsRegistered += $increment;
     }
 }

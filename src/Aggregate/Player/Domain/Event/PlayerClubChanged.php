@@ -31,4 +31,19 @@ class PlayerClubChanged extends DomainEvent
             'new_club_id' => $this->newClubId->value(),
         ];
     }
+
+    public function playerId(): PlayerId
+    {
+        return $this->playerId;
+    }
+
+    public function oldClubId(): ClubId
+    {
+        return $this->oldClubId;
+    }
+
+    public function newClubId(): ClubId
+    {
+        return $this->newClubId;
+    }
 }

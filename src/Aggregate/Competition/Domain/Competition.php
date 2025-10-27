@@ -10,11 +10,13 @@ use App\Aggregate\Competition\Domain\ValueObject\CompetitionName;
 use App\Aggregate\Player\Domain\Exception\PlayerNotActiveException;
 use App\Aggregate\Player\Domain\Exception\PlayerNotFederatedException;
 use App\Aggregate\Competition\Domain\Event\CompetitionPlayerRegistered;
+use App\Aggregate\Competition\Domain\Event\CompetitionPlayerUnRegistered;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionMaxPlayers;
 use App\Aggregate\Competition\Domain\ValueObject\CompetitionStartDateTime;
 use App\Aggregate\Competition\Domain\Exception\MaxPlayersExceededException;
 use App\Aggregate\Competition\Domain\Exception\PlayerClubDontMatchCompetitionClubException;
 use App\Aggregate\Competition\Domain\Exception\PlayerAlreadyRegisteredInCompetitionException;
+use App\Aggregate\Player\Domain\ValueObject\PlayerId;
 
 class Competition extends AggregateRoot
 {
@@ -84,6 +86,22 @@ class Competition extends AggregateRoot
         $this->players[] = $player;
 
         $this->record(new CompetitionPlayerRegistered($this->id, $player->id()));
+    }
+
+    public function unregisterPlayer(PlayerId $playerId): void
+    {
+        foreach ($this->players as $index => $registeredPlayer) {
+            if ($registeredPlayer->id()->value() === $playerId->value()) {
+                unset($this->players[$index]);
+                // Reindexar el array para evitar huecos
+                $this->players = array_values($this->players);
+
+                // Emitimos el evento de desinscripción del usuario en el torneo
+                $this->record(new CompetitionPlayerUnRegistered($this->id, $playerId));
+
+                return;
+            }
+        }
     }
 
     public function isPlayerRegistered(Player $player): bool
