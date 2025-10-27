@@ -10,15 +10,16 @@ use App\Aggregate\Player\Domain\ValueObject\PlayerId;
 use App\Aggregate\Player\Domain\ValueObject\PlayerActive;
 use App\Aggregate\Player\Domain\ValueObject\PlayerSurname;
 use App\Aggregate\Player\Domain\ValueObject\PlayerBirthdate;
+use App\Aggregate\Player\Domain\ValueObject\PlayerFederatedCode;
 use App\Aggregate\Player\Domain\ValueObject\PlayerFirstName;
-use App\Aggregate\Player\Domain\ValueObject\PlayerFederationCode;
 use App\Tests\Aggregate\Club\Domain\Mother\ClubIdMother;
+use App\Tests\Shared\Domain\Mother\GenderMother;
 
 final class PlayerMother
 {
     public static function create(
         ?PlayerId $id = null,
-        ?PlayerFederationCode $federatedCode = null,
+        ?PlayerFederatedCode $federatedCode = null,
         ?ClubId $clubId = null,
         ?PlayerFirstName $name = null,
         ?PlayerSurname $surname = null,
@@ -31,7 +32,7 @@ final class PlayerMother
         return Player::create(
             $id ?? new PlayerId($faker->uuid()),
             $clubId ?? ClubIdMother::create(),
-            $federatedCode ?? new PlayerFederationCode($faker->regexify('[0-9]{6}')),
+            $federatedCode ?? new PlayerFederatedCode($faker->regexify('[0-9]{6}')),
             $name ?? new PlayerFirstName($faker->firstName()),
             $surname ?? new PlayerSurname($faker->lastName()),
             $gender ?? GenderMother::create(),

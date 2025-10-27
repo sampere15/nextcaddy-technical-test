@@ -118,4 +118,24 @@ class Competition extends AggregateRoot
     {
         return $this->clubId;
     }
+
+    public function jsonSerialize(bool $includePlayers = false): array
+    {
+        $data = [
+            'id' => $this->id->value(),
+            'name' => $this->name->value(),
+            'club_id' => $this->clubId->value(),
+            'start_datetime' => $this->startDateTime->value()->format('Y-m-d H:i:s'),
+            'max_players' => $this->maxPlayers->value(),
+        ];
+
+        if ($includePlayers) {
+            $data['players'] = array_map(
+                fn (Player $player) => $player->jsonSerialize(),
+                $this->players
+            );
+        }
+
+        return $data;
+    }
 }

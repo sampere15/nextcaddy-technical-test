@@ -2,7 +2,6 @@
 
 namespace App\Aggregate\Player\Domain;
 
-use App\Aggregate\Club\Domain\Club;
 use App\Shared\Domain\ValueObject\Gender;
 use App\Shared\Domain\Event\AggregateRoot;
 use App\Aggregate\Club\Domain\ValueObject\ClubId;
@@ -62,6 +61,10 @@ class Player extends AggregateRoot
             $active,
             $synced,
         );
+
+        $player->record(new PlayerCreated($player));
+
+        return $player;
     }
 
     public function id(): PlayerId
