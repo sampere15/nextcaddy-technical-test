@@ -3,6 +3,7 @@ namespace App\Aggregate\Player\Infrastructure\Event;
 
 use App\Aggregate\Competition\Domain\Repository\CompetitionRepository;
 use App\Aggregate\Player\Domain\Event\PlayerClubChanged;
+use App\Shared\Domain\Event\DomainEvent;
 use App\Shared\Domain\Event\DomainEventSubscriber;
 use App\Shared\Domain\Event\EventBus;
 
@@ -20,8 +21,9 @@ class CheckPlayerCompetitionsRegisteredAfterUpdateClub implements DomainEventSub
         private readonly EventBus $eventBus,
     ) {}
 
-    public function __invoke(PlayerClubChanged $event): void
+    public function __invoke(DomainEvent $event): void
     {
+        /** @var PlayerClubChanged $event */
         $playerId = $event->playerId();
         $newClubId = $event->newClubId();
 

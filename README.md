@@ -103,3 +103,17 @@ Si consideras que hay algo que mejorarías y no has llegado a aplicar por falta 
 ## Dudas
 
 Cualquier duda técnica sobre la prueba puedes comentarla directamente con: `juan.cabrera@slope.es`
+
+# Cómo poner en marcha el proyecto tras clonarlo
+## Arrancar contenedores Docker
+```
+docker-compose up -d
+```
+## Instalar dependencias
+```
+docker exec tt_php php composer.phar install
+```
+## Pasar los tests
+```
+docker exec tt_php php bin/phpunit
+```
